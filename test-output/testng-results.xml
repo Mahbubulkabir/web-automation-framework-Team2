@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-24T16:46:47 EST" name="orangehrm test" finished-at="2023-01-24T16:53:33 EST" duration-ms="405680">
+    <groups>
+    </groups>
+    <test started-at="2023-01-24T16:46:47 EST" name="orangehrm tests" finished-at="2023-01-24T16:53:33 EST" duration-ms="405680">
+      <class name="test.TestManagerReviews">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestManagerReviews@590c73d3]" started-at="2023-01-24T16:49:43 EST" name="setUp" finished-at="2023-01-24T16:49:59 EST" duration-ms="16013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="managerReviewsFromDropDown()[pri:0, instance:test.TestManagerReviews@590c73d3]" started-at="2023-01-24T16:49:59 EST" name="managerReviewsFromDropDown" finished-at="2023-01-24T16:50:24 EST" duration-ms="24629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managerReviewsFromDropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestManagerReviews@590c73d3]" started-at="2023-01-24T16:50:24 EST" name="tearDown" finished-at="2023-01-24T16:50:24 EST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestManagerReviews -->
+      <class name="test.TestPostComments">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestPostComments@4fc5e095]" started-at="2023-01-24T16:52:33 EST" name="setUp" finished-at="2023-01-24T16:52:37 EST" duration-ms="4366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postCommentsAndLikeIt()[pri:0, instance:test.TestPostComments@4fc5e095]" started-at="2023-01-24T16:52:37 EST" name="postCommentsAndLikeIt" finished-at="2023-01-24T16:53:01 EST" duration-ms="23505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCommentsAndLikeIt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestPostComments@4fc5e095]" started-at="2023-01-24T16:53:01 EST" name="tearDown" finished-at="2023-01-24T16:53:01 EST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestPostComments -->
+      <class name="test.TestReportsOfQAEngineers">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestReportsOfQAEngineers@6b9ce1bf]" started-at="2023-01-24T16:50:24 EST" name="setUp" finished-at="2023-01-24T16:50:39 EST" duration-ms="15562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="reportGeneration()[pri:0, instance:test.TestReportsOfQAEngineers@6b9ce1bf]" started-at="2023-01-24T16:50:39 EST" name="reportGeneration" finished-at="2023-01-24T16:51:12 EST" duration-ms="32658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestReportsOfQAEngineers@6b9ce1bf]" started-at="2023-01-24T16:51:12 EST" name="tearDown" finished-at="2023-01-24T16:51:12 EST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestReportsOfQAEngineers -->
+      <class name="test.TestQualifications">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestQualifications@14c01636]" started-at="2023-01-24T16:48:46 EST" name="setUp" finished-at="2023-01-24T16:49:00 EST" duration-ms="14235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="qualificationsAddWorkExperience()[pri:0, instance:test.TestQualifications@14c01636]" started-at="2023-01-24T16:49:00 EST" name="qualificationsAddWorkExperience" finished-at="2023-01-24T16:49:43 EST" duration-ms="43136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationsAddWorkExperience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestQualifications@14c01636]" started-at="2023-01-24T16:49:43 EST" name="tearDown" finished-at="2023-01-24T16:49:43 EST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestQualifications -->
+      <class name="test.TestLogIn">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestLogIn@129b4fe2]" started-at="2023-01-24T16:46:47 EST" name="setUp" finished-at="2023-01-24T16:46:57 EST" duration-ms="10558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInOnHomePage()[pri:0, instance:test.TestLogIn@129b4fe2]" started-at="2023-01-24T16:46:57 EST" name="logInOnHomePage" finished-at="2023-01-24T16:47:12 EST" duration-ms="14097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInOnHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestLogIn@129b4fe2]" started-at="2023-01-24T16:47:12 EST" name="tearDown" finished-at="2023-01-24T16:47:12 EST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestLogIn -->
+      <class name="test.TestLogOut">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestLogOut@75ed9710]" started-at="2023-01-24T16:51:55 EST" name="setUp" finished-at="2023-01-24T16:52:12 EST" duration-ms="16506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logOutFromOrangehrmPage()[pri:0, instance:test.TestLogOut@75ed9710]" started-at="2023-01-24T16:52:12 EST" name="logOutFromOrangehrmPage" finished-at="2023-01-24T16:52:33 EST" duration-ms="20743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromOrangehrmPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestLogOut@75ed9710]" started-at="2023-01-24T16:52:33 EST" name="tearDown" finished-at="2023-01-24T16:52:33 EST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestLogOut -->
+      <class name="test.TestTimeSheets">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeSheets@61884cb1]" started-at="2023-01-24T16:51:12 EST" name="setUp" finished-at="2023-01-24T16:51:26 EST" duration-ms="13420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="timeSheetsForEmployees()[pri:0, instance:test.TestTimeSheets@61884cb1]" started-at="2023-01-24T16:51:26 EST" name="timeSheetsForEmployees" finished-at="2023-01-24T16:51:55 EST" duration-ms="29519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetsForEmployees -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestTimeSheets@61884cb1]" started-at="2023-01-24T16:51:55 EST" name="tearDown" finished-at="2023-01-24T16:51:55 EST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestTimeSheets -->
+      <class name="test.TestSharePost">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSharePost@435871cb]" started-at="2023-01-24T16:53:01 EST" name="setUp" finished-at="2023-01-24T16:53:06 EST" duration-ms="5163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sharePostAndComments()[pri:0, instance:test.TestSharePost@435871cb]" started-at="2023-01-24T16:53:06 EST" name="sharePostAndComments" finished-at="2023-01-24T16:53:32 EST" duration-ms="26588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sharePostAndComments -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSharePost@435871cb]" started-at="2023-01-24T16:53:32 EST" name="tearDown" finished-at="2023-01-24T16:53:33 EST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestSharePost -->
+      <class name="test.TestPIM">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestPIM@6f2cb653]" started-at="2023-01-24T16:48:00 EST" name="setUp" finished-at="2023-01-24T16:48:18 EST" duration-ms="17769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findOutEmployeeById()[pri:0, instance:test.TestPIM@6f2cb653]" started-at="2023-01-24T16:48:18 EST" name="findOutEmployeeById" finished-at="2023-01-24T16:48:45 EST" duration-ms="27777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findOutEmployeeById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestPIM@6f2cb653]" started-at="2023-01-24T16:48:45 EST" name="tearDown" finished-at="2023-01-24T16:48:46 EST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestPIM -->
+      <class name="test.TestAddContact">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestAddContact@7a791b66]" started-at="2023-01-24T16:47:12 EST" name="setUp" finished-at="2023-01-24T16:47:18 EST" duration-ms="6213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addEmergencyContact()[pri:0, instance:test.TestAddContact@7a791b66]" started-at="2023-01-24T16:47:18 EST" name="addEmergencyContact" finished-at="2023-01-24T16:48:00 EST" duration-ms="41735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmergencyContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestAddContact@7a791b66]" started-at="2023-01-24T16:48:00 EST" name="tearDown" finished-at="2023-01-24T16:48:00 EST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestAddContact -->
+    </test> <!-- orangehrm tests -->
+  </suite> <!-- orangehrm test -->
+</testng-results>
