@@ -5,37 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5ab9fd-0d4f-4b1d-9d81-d497735ba6b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LogOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ManageReviews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PimPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PostComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Qualifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ReportsOfQAEngineers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SharePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TimeSheets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestAddContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestLogOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestManagerReviews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestPIM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestPostComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestQualifications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestReportsOfQAEngineers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestSharePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestTimeSheets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/orangehrm-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group2-automation.exam" beforeDir="false" afterPath="$PROJECT_DIR$/group2-automation.exam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam/group2-automation.exam" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam/src/test/java/test/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/group2-automation.exam/src/test/java/test/TestSearch.java" afterDir="false" />
