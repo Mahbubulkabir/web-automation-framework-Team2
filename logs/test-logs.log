@@ -1,0 +1,73 @@
+20:42:41.079 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+20:50:28.092 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+20:50:31.183 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+20:50:49.593 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+20:50:52.735 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+20:51:44.730 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+20:51:50.836 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+21:13:59.950 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+21:14:03.623 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+21:27:42.136 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+21:27:45.914 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+22:20:23.605 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+22:20:26.708 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+22:23:05.914 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+22:23:09.672 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+22:39:36.585 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+22:39:40.491 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+22:41:03.574 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+22:41:07.388 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+22:56:57.005 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+22:57:00.543 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:02:54.063 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:02:57.875 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:10:08.321 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:10:12.201 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:13:40.028 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:13:43.157 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:16:58.005 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:17:01.944 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:18:16.569 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:18:19.693 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:30:31.704 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:30:36.007 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:31:57.150 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:32:00.256 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:38:39.158 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:38:43.004 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:42:39.763 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:42:43.002 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:48:28.983 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:48:32.129 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+23:55:49.685 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+23:55:53.398 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+18:31:21.315 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+18:34:21.796 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+18:41:43.632 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+18:41:46.812 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+18:57:59.916 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+18:58:03.439 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+19:06:08.987 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+19:06:12.444 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+19:37:47.206 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+19:37:50.651 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+20:02:32.412 [main] INFO  page.SignBtnHome - landed to Home Page successfull
+20:02:35.516 [main] INFO  page.SignBtnHome - landed to sign in Page successfull
+20:56:10.723 [main] INFO  test.LoginTest - login page validation successful
+21:09:37.095 [main] INFO  test.LoginTest - login page validation successful
+21:10:32.501 [main] INFO  test.LoginTest - login page validation successful
+21:13:29.824 [main] INFO  test.LoginTest - login page validation successful
+21:15:08.176 [main] INFO  test.LoginTest - login page validation successful
+21:28:34.260 [main] INFO  test.LoginTest - login page validation successful
+21:31:25.616 [main] INFO  test.LoginTest - login page validation successful
+21:55:41.522 [main] INFO  test.LoginTest - login page validation successful
+21:58:10.072 [main] INFO  test.LoginTest - login page validation successful
+21:59:29.212 [main] INFO  test.LoginTest - login page validation successful
+21:59:32.468 [main] INFO  test.LoginTest - search validation success
+16:57:35.103 [main] INFO  test.LoginTest - login page validation successful
+17:42:31.089 [main] INFO  test.DropDownTest - DropDown validation successful
+17:43:19.903 [main] INFO  test.DropDownTest - DropDown validation successful
+18:18:25.354 [main] INFO  test.LoginTest - login page validation successful
+18:19:01.076 [main] INFO  test.DropDownTest - DropDown validation successful
+18:22:10.642 [main] INFO  test.LoginTest - login page validation successful
+18:23:03.061 [main] INFO  test.DropDownTest - DropDown validation successful

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ui.freecrm test">
+    <parameter name="browserName" value="Chrome"></parameter>
+    <parameter name="url" value="https://ui.freecrm.com/"></parameter>
+    <test name="ui.freecrm tests">
+        <classes>
+                <class name="test.LoginTest"></class>
+                 <class name="test.SearchTest"></class>
+            <class name="test.DropDownTest"></class>
+            <class name="test.MouseHoverTest"></class>
+            <class name="test.LogoTest"></class>
+        </classes>
+    </test>
+</suite>
