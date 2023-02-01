@@ -14,7 +14,8 @@
             <class name="test.TestTimeSheets"></class>
             <class name="test.TestLogOut"></class>
             <class name="test.TestPostComments"></class>
-            <class name="test.TestSharePost"></class>
+            <class name="test.TestMostLikePost"></class>
+            <class name="test.TestTimeFunctionAll"></class>
         </classes>
     </test>
 </suite>

@@ -5,13 +5,17 @@
   <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
   <test thread-count="5" name="orangehrm tests(failed)">
     <classes>
-      <class name="test.TestPostComments">
+      <class name="test.TestMostLikePost">
         <methods>
           <include name="setUp"/>
+          <include name="sharePostAndComments"/>
+          <include name="afterEachTestMethod"/>
           <include name="tearDown"/>
-          <include name="postCommentsAndLikeIt"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
         </methods>
-      </class> <!-- test.TestPostComments -->
+      </class> <!-- test.TestMostLikePost -->
     </classes>
   </test> <!-- orangehrm tests(failed) -->
 </suite> <!-- Failed suite [orangehrm test] -->

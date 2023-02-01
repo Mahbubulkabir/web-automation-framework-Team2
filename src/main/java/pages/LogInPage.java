@@ -17,13 +17,13 @@ public class LogInPage extends CommonAPI {
     }
 
     // object(web element)
-    @FindBy(xpath = "//input[@name=\"username\"]")
+    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]")
     WebElement userNameField;
 
-    @FindBy(xpath = "//input[@name=\"password\"]")
+    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]")
     WebElement passwordField;
 
-    @FindBy(xpath = "//button[@type=\"submit\"]")
+    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[3]/button[1]")
     WebElement clickOnLogInBtm;
 
 

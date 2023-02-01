@@ -7,10 +7,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LogInPage;
+import utility.ReadFromExel;
 
 public class TestAddContact extends CommonAPI {
    Logger LOG = LogManager.getLogger(TestAddContact.class.getName());
-
+   ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automation-framework-final-Bootcamp\\data\\titles.xlsx", "test data");
+   String username= read.getCellValueForGivenHeaderAndKey("key","userName");
+   String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
    @Test
    public void addEmergencyContact() throws InterruptedException {
       HomePage homePage = new HomePage(getDriver());
@@ -20,11 +23,8 @@ public class TestAddContact extends CommonAPI {
       Assert.assertEquals(actualHomePageTitle,expectedHomePageTitle);
       LOG.info("land to orangehrm home page successfully");
 
-      Thread.sleep(3000);
-      logInPage.typeUserName("Admin");
-      Thread.sleep(3000);
-      logInPage.typePassword("admin123");
-      Thread.sleep(3000);
+      logInPage.typeUserName(username);
+      logInPage.typePassword(password);
       logInPage.setClickOnLogInBtm();
       Thread.sleep(3000);
 
@@ -46,9 +46,8 @@ public class TestAddContact extends CommonAPI {
       Thread.sleep(3000);
       homePage.setClickOnSaveBtn();
       Thread.sleep(3000);
-      String expectedTitle2 = "OrangeHRM";
-      String actualTitle2 = getCurrentTitle();
-      Assert.assertEquals(actualTitle2, expectedTitle2);
-      LOG.info("emergency contact add success");
+      String expectedUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7";
+      Assert.assertEquals(getURL(), expectedUrl);
+      LOG.info("emergency contact add page validation success");
    }
 }

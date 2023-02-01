@@ -16,14 +16,14 @@ public class PimPage extends CommonAPI {
     }
 
     //object(web element
-   @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[2]/a[1]")
+   @FindBy(xpath = "//body/div[@id='app']/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[2]/a[1]/span[1]")
     WebElement clickOnPimBtn;
     @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[2]/div[1]/div[2]/input[1]")
     WebElement employeeIdField;
 
     @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[2]/button[2]")
     WebElement clickOnSearchBtn;
-    @FindBy(xpath = "//div[contains(text(),'Alice')]")
+    @FindBy(xpath = "")
     WebElement clickOnRecordedName;
 
  // reusable method
@@ -37,8 +37,8 @@ public class PimPage extends CommonAPI {
     public void setClickOnSearchBtn(){
         clickOn(clickOnSearchBtn);
     }
+
     public void setClickOnRecordedName(){
         clickOn(clickOnRecordedName);
-        LOG.info("person details validation successful");
     }
 }

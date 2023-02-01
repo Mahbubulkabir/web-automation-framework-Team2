@@ -7,9 +7,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LogInPage;
 import pages.ReportsOfQAEngineers;
+import utility.ReadFromExel;
 
 public class TestReportsOfQAEngineers extends CommonAPI {
     Logger LOG = LogManager.getLogger(TestManagerReviews.class.getName());
+    ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automation-framework-final-Bootcamp\\data\\titles.xlsx", "test data");
+    String username= read.getCellValueForGivenHeaderAndKey("key","userName");
+    String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
     @Test
     public void reportGeneration() throws InterruptedException {
         ReportsOfQAEngineers reportsOfQAEngineers = new ReportsOfQAEngineers(getDriver());
@@ -18,11 +22,9 @@ public class TestReportsOfQAEngineers extends CommonAPI {
         String actualHomePageTitle = getCurrentTitle();
         Assert.assertEquals(actualHomePageTitle,expectedHomePageTitle);
         LOG.info("land to orangehrm home page successfully");
-        Thread.sleep(3000);
-        logInPage.typeUserName("Admin");
-        Thread.sleep(3000);
-        logInPage.typePassword("admin123");
-        Thread.sleep(3000);
+
+        logInPage.typeUserName(username);
+        logInPage.typePassword(password);
         logInPage.setClickOnLogInBtm();
         Thread.sleep(3000);
 
@@ -38,9 +40,8 @@ public class TestReportsOfQAEngineers extends CommonAPI {
         Thread.sleep(3000);
          reportsOfQAEngineers.setClickOnXBtn();
         Thread.sleep(3000);
-         String expectedTitle6= "OrangeHRM";
-         String actualTitle6= getCurrentTitle();
-         Assert.assertEquals(actualTitle6,expectedTitle6);
-         LOG.info("reports validation success");
+         String expectedUrl= "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveBalanceReport";
+         Assert.assertEquals(getURL(),expectedUrl);
+         LOG.info("reports page validation success");
     }
 }

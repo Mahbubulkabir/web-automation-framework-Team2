@@ -20,10 +20,7 @@ public class TimeSheets extends CommonAPI {
     WebElement clickOnTimeSheetBtn;
     @FindBy(xpath = "//body[1]/div[1]/div[1]/div[1]/header[1]/div[2]/nav[1]/ul[1]/li[1]/ul[1]/li[2]")
     WebElement clickOnEmployeeTimeSheetBtn;
-    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/input[1]")
-    WebElement typeToArrowDownField;
-    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/button[1]")
-    WebElement clickOnViewBtn;
+
 
     //reusable method
     public void setClickOnTimeBtn(){
@@ -35,10 +32,5 @@ public class TimeSheets extends CommonAPI {
     public void setClickOnEmployeeTimeSheetBtn(){
         clickOn(clickOnEmployeeTimeSheetBtn);
     }
-    public void setTypeToArrowDownField(String text){
-        typeAndArrowDownAndEnter(typeToArrowDownField,text);
-    }
-    public void setClickOnViewBtn(){
-        clickOn(clickOnViewBtn);
-    }
+
 }

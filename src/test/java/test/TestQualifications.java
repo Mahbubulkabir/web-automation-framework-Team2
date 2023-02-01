@@ -8,10 +8,13 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LogInPage;
 import pages.Qualifications;
+import utility.ReadFromExel;
 
 public class TestQualifications extends CommonAPI {
   Logger LOG = LogManager.getLogger(TestQualifications.class.getName());
-
+  ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automation-framework-final-Bootcamp\\data\\titles.xlsx", "test data");
+  String username= read.getCellValueForGivenHeaderAndKey("key","userName");
+  String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
   @Test
     public void qualificationsAddWorkExperience() throws InterruptedException {
       Qualifications qualifications = new Qualifications(getDriver());
@@ -21,11 +24,9 @@ public class TestQualifications extends CommonAPI {
       String actualHomePageTitle = getCurrentTitle();
       Assert.assertEquals(actualHomePageTitle,expectedHomePageTitle);
       LOG.info("land to orangehrm home page successfully");
-      Thread.sleep(3000);
-      logInPage.typeUserName("Admin");
-      Thread.sleep(3000);
-      logInPage.typePassword("admin123");
-      Thread.sleep(3000);
+
+      logInPage.typeUserName(username);
+      logInPage.typePassword(password);
       logInPage.setClickOnLogInBtm();
       Thread.sleep(3000);
 
@@ -47,9 +48,8 @@ public class TestQualifications extends CommonAPI {
       Thread.sleep(3000);
       qualifications.setClickOnSaveBtn();
       Thread.sleep(3000);
-      String expectedTitle4 = "OrangeHRM";
-      String actualTitle4 = getCurrentTitle();
-      Assert.assertEquals(actualTitle4, expectedTitle4);
+      String expectedUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7";
+      Assert.assertEquals(getURL(), expectedUrl);
       LOG.info("add work experience success");
 
   }

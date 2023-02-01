@@ -5,12 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5ab9fd-0d4f-4b1d-9d81-d497735ba6b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TimeFunctionAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ReadFromExel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestTimeFunctionAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam" beforeDir="false" afterPath="$PROJECT_DIR$/group2-automation.exam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam/group2-automation.exam" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam/src/test/java/test/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/group2-automation.exam/src/test/java/test/TestSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/group2-automation.exam/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/group2-automation.exam/src/test/resources/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PimPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PimPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SharePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MostLikePost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TimeSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TimeSheets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestAddContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestAddContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestLogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestLogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestLogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestManagerReviews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestManagerReviews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestPIM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestPIM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestPostComments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestPostComments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestQualifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestQualifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestReportsOfQAEngineers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestReportsOfQAEngineers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestSharePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestMostLikePost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestTimeSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestTimeSheets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/orangehrm-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/orangehrm-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestAddContact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestAddContact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogIn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogIn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogOut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogOut.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestManagerReviews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestManagerReviews.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPIM.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPIM.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPostComments.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPostComments.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestQualifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestQualifications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestReportsOfQAEngineers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestReportsOfQAEngineers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestSharePost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestSharePost.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestTimeSheets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestTimeSheets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/orangehrm test/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/orangehrm test/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +101,41 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/munna/InteliiJ/web-automation-framework-final-Bootcamp/src/test/resources/orangehrm-runner.xml">
+    <configuration name="ReadFromExel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.ReadFromExel" />
+      <module name="web-automation-framework-final-Bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Utility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.Utility" />
+      <module name="web-automation-framework-final-Bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/munna/InteliiJ/web-automation-framework-final-Bootcamp/src/test/resources/orangehrm-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="web-automation-framework-final-Bootcamp" />
       <shortenClasspath name="NONE" />
@@ -72,9 +156,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLogIn.logInOnHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="web-automation-framework-final-Bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestLogIn" />
+      <option name="METHOD_NAME" value="logInOnHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/munna/InteliiJ/web-automation-framework-final-Bootcamp/src/test/resources/orangehrm-runner.xml" />
+        <item itemvalue="TestNG.TestLogIn.logInOnHomePage" />
+        <item itemvalue="Application.ReadFromExel" />
+        <item itemvalue="Application.Utility" />
       </list>
     </recent_temporary>
   </component>
@@ -88,5 +193,10 @@
       <updated>1674504491333</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
   </component>
 </project>

@@ -25,7 +25,7 @@ public class HomePage extends CommonAPI {
 
      @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]")
      WebElement clickOnAddBtn;
-    @FindBy(xpath = "(//input[@class=\"oxd-input oxd-input--active\"])[2]")
+    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]")
     WebElement nameField;
     @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/div[2]/input[1]")
     WebElement relationshipField;
@@ -35,7 +35,7 @@ public class HomePage extends CommonAPI {
     WebElement mobileField;
     @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[3]/div[1]/div[2]/input[1]")
     WebElement workTelephoneField;
-    @FindBy(xpath = "//button[@type=\"submit\"]")
+    @FindBy(xpath = "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[3]/button[2]")
     WebElement clickOnSaveBtn;
 
     // reusable method
