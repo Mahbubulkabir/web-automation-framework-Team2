@@ -16,7 +16,7 @@ public class MouseHover extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"main-nav\"]/div[3]/a")
     WebElement popup;
 
-    @FindBy(xpath = "//*[@id=\"main-content\"]/div/div[2]/div/table/tfoot/tr/th[2]/span/div[2]")
+    @FindBy(xpath = "//body[1]/div[2]/div[1]/div[1]/svg[1]/path[1]")
     WebElement ClickBtn;
 
     @FindBy (xpath = "//button[contains(text(),'Cancel')]")

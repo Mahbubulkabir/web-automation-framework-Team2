@@ -9,14 +9,39 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">ui.freecrm test</th></tr>
-<tr><td><a href="#t0">ui.freecrm tests</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">104,382</td><td></td><td></td></tr>
+<tr><td><a href="#t0">ui.freecrm tests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,010</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ui.freecrm test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ui.freecrm tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.DropDownTest</td><td><a href="#m0">testMethod</a></td><td rowspan="1">1675232572083</td><td rowspan="1">10978</td></tr><tr class="passedodd"><td rowspan="1">test.LoginTest</td><td><a href="#m1">testLogin</a></td><td rowspan="1">1675232521299</td><td rowspan="1">9348</td></tr><tr class="passedeven"><td rowspan="1">test.LogoTest</td><td><a href="#m2">logoMethod</a></td><td rowspan="1">1675232596941</td><td rowspan="1">9313</td></tr><tr class="passedodd"><td rowspan="1">test.MouseHoverTest</td><td><a href="#m3">popupMethod</a></td><td rowspan="1">1675232586553</td><td rowspan="1">7937</td></tr><tr class="passedeven"><td rowspan="1">test.SearchTest</td><td><a href="#m4">testMethod</a></td><td rowspan="1">1675232549468</td><td rowspan="1">3920</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ui.freecrm test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ui.freecrm tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.PopUpTest</td><td><a href="#m0">popupMethod</a></td><td rowspan="1">1675315185220</td><td rowspan="1">10423</td></tr></tbody>
 </table>
-<h2>ui.freecrm tests</h2><h3 id="m0">test.DropDownTest#testMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.LoginTest#testLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.LogoTest#logoMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">test.MouseHoverTest#popupMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">test.SearchTest#testMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ui.freecrm tests</h2><h3 id="m0">test.PopUpTest#popupMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;unsubscribe-button&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8fd3dbdbc8cfa9a6145a7ae42d8f114, findElement {using=xpath, value=//button[@id=&apos;unsubscribe-button&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62068/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b8fd3dbdbc8cfa9a6145a7ae42d8f114
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy31.click(Unknown Source)
+	at base.CommonAPI.clickOn(CommonAPI.java:56)
+	at page.PopUp.setUnsubBtn(PopUp.java:33)
+	at test.PopUpTest.popupMethod(PopUpTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

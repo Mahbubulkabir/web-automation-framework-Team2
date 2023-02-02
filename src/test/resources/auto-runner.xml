@@ -5,11 +5,14 @@
     <parameter name="url" value="https://ui.freecrm.com/"></parameter>
     <test name="ui.freecrm tests">
         <classes>
-                <class name="test.LoginTest"></class>
-                 <class name="test.SearchTest"></class>
-            <class name="test.DropDownTest"></class>
-            <class name="test.MouseHoverTest"></class>
-            <class name="test.LogoTest"></class>
+<!--                <class name="test.LoginTest"></class>-->
+<!--                 <class name="test.SearchTest"></class>-->
+<!--            <class name="test.DropDownTest"></class>-->
+<!--            <class name="test.MouseHoverTest"></class>-->
+<!--            <class name="test.LogoTest"></class>-->
+            <class name="test.CreateTest"></class>
+            <class name="test.LogOutTest"></class>
+            <class name="test.SearchTest"></class>
         </classes>
     </test>
 </suite>
