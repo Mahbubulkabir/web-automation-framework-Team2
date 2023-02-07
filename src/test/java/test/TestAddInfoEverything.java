@@ -15,6 +15,7 @@ public class TestAddInfoEverything extends CommonAPI {
    ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automation-framework-final-Bootcamp\\data\\titles.xlsx", "test data");
    String username= read.getCellValueForGivenHeaderAndKey("key","userName");
    String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
+
    @Test(dependsOnMethods = {"addressAndContactDetailsSubmit"}, alwaysRun = false)
    public void addEmergencyContact() throws InterruptedException {
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
@@ -41,6 +42,7 @@ public class TestAddInfoEverything extends CommonAPI {
       Assert.assertEquals(getURL(), expectedUrl);
       LOG.info("emergency contact add page validation success");
    }
+
    @Test(dependsOnMethods = {"assignAndClickOnAddDependentsAndCancel"})
    public void addressAndContactDetailsSubmit() {
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
@@ -64,6 +66,7 @@ public class TestAddInfoEverything extends CommonAPI {
       Assert.assertEquals(getURL(),expectedUrl2);
       LOG.info("address add validation success");
    }
+
    @Test(priority = 0,enabled = true)
    public void assignAndClickOnAddDependentsAndCancel() {
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
@@ -84,6 +87,7 @@ public class TestAddInfoEverything extends CommonAPI {
       Assert.assertEquals(getURL(),expectedUrl3);
       LOG.info("dependents add validation success");
    }
+
    @Test(priority = 1,enabled = true)
    public void immigrationRecordAddStatus(){
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
@@ -109,6 +113,7 @@ public class TestAddInfoEverything extends CommonAPI {
       Assert.assertEquals(getURL(),expectedUrl4);
       LOG.info("immigration record added validation success");
    }
+
    @Test(priority = 2)
    public void jobDetailsIncludingContactDetails(){
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
@@ -128,5 +133,4 @@ public class TestAddInfoEverything extends CommonAPI {
       Assert.assertEquals(actualUrl, expectedUrl5);
       LOG.info("job details page validation success");
    }
-
 }
