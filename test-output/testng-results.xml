@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="20" total="40" passed="20" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\munna\InteliiJ\web-automation-framework-final-Bootcamp\test-output\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-06T10:14:59 EST" name="orangehrm test" finished-at="2023-02-06T10:16:25 EST" duration-ms="85918">
+  <suite started-at="2023-02-07T16:24:49 EST" name="orangehrm test" finished-at="2023-02-07T16:29:55 EST" duration-ms="306353">
     <groups>
     </groups>
-    <test started-at="2023-02-06T10:14:59 EST" name="orangehrm tests" finished-at="2023-02-06T10:16:25 EST" duration-ms="85918">
-      <class name="test.TestAddInfoEverything">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:14:58 EST" name="extentSetup" finished-at="2023-02-06T10:14:59 EST" duration-ms="139" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1d3d76b4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Extent Report DirectoryC:\Users\munna\InteliiJ\web-automation-framework-final-Bootcamp\test-output\html]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:14:59 EST" name="setUp" finished-at="2023-02-06T10:15:17 EST" duration-ms="18540" status="PASS">
+    <test started-at="2023-02-07T16:24:49 EST" name="orangehrm tests" finished-at="2023-02-07T16:29:55 EST" duration-ms="306353">
+      <class name="test.TestManagerReviews">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestManagerReviews@6c298dc]" started-at="2023-02-07T16:26:44 EST" name="setUp" finished-at="2023-02-07T16:26:47 EST" duration-ms="2565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +51,1050 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:17 EST" name="startExtent" finished-at="2023-02-06T10:15:17 EST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestManagerReviews@6c298dc]" started-at="2023-02-07T16:26:47 EST" name="startExtent" finished-at="2023-02-07T16:26:47 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestManagerReviews.managerReviewsFromDropDown() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="managerReviewsFromDropDown()[pri:0, instance:test.TestManagerReviews@6c298dc]" started-at="2023-02-07T16:26:47 EST" name="managerReviewsFromDropDown" finished-at="2023-02-07T16:27:01 EST" duration-ms="14486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managerReviewsFromDropDown -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestManagerReviews@6c298dc]" started-at="2023-02-07T16:27:01 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:27:01 EST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=managerReviewsFromDropDown status=SUCCESS method=TestManagerReviews.managerReviewsFromDropDown()[pri:0, instance:test.TestManagerReviews@6c298dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestManagerReviews -->
+      <class name="test.TestPostComments">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestPostComments@31c2affc]" started-at="2023-02-07T16:28:00 EST" name="setUp" finished-at="2023-02-07T16:28:03 EST" duration-ms="2614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestPostComments@31c2affc]" started-at="2023-02-07T16:28:03 EST" name="startExtent" finished-at="2023-02-07T16:28:03 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestPostComments.postCommentsAndLikeIt() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="postCommentsAndLikeIt()[pri:0, instance:test.TestPostComments@31c2affc]" started-at="2023-02-07T16:28:03 EST" name="postCommentsAndLikeIt" finished-at="2023-02-07T16:28:17 EST" duration-ms="13928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCommentsAndLikeIt -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestPostComments@31c2affc]" started-at="2023-02-07T16:28:17 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:28:17 EST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postCommentsAndLikeIt status=SUCCESS method=TestPostComments.postCommentsAndLikeIt()[pri:0, instance:test.TestPostComments@31c2affc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestPostComments -->
+      <class name="test.TestReportsOfQAEngineers">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestReportsOfQAEngineers@35ff8fc9]" started-at="2023-02-07T16:27:01 EST" name="setUp" finished-at="2023-02-07T16:27:05 EST" duration-ms="3311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="reportGeneration()[pri:0, instance:test.TestReportsOfQAEngineers@35ff8fc9]" started-at="2023-02-07T16:27:05 EST" name="reportGeneration" finished-at="2023-02-07T16:27:29 EST" duration-ms="24149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestReportsOfQAEngineers@35ff8fc9]" started-at="2023-02-07T16:27:05 EST" name="startExtent" finished-at="2023-02-07T16:27:05 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestReportsOfQAEngineers.reportGeneration() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestReportsOfQAEngineers@35ff8fc9]" started-at="2023-02-07T16:27:29 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:27:29 EST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reportGeneration status=SUCCESS method=TestReportsOfQAEngineers.reportGeneration()[pri:0, instance:test.TestReportsOfQAEngineers@35ff8fc9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestReportsOfQAEngineers -->
+      <class name="test.TestQualifications">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestQualifications@49a71302]" started-at="2023-02-07T16:26:07 EST" name="setUp" finished-at="2023-02-07T16:26:10 EST" duration-ms="2869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestQualifications@49a71302]" started-at="2023-02-07T16:26:10 EST" name="startExtent" finished-at="2023-02-07T16:26:10 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestQualifications.qualificationsAddWorkExperience() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="qualificationsAddWorkExperience()[pri:0, instance:test.TestQualifications@49a71302]" started-at="2023-02-07T16:26:10 EST" name="qualificationsAddWorkExperience" finished-at="2023-02-07T16:26:44 EST" duration-ms="34233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualificationsAddWorkExperience -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestQualifications@49a71302]" started-at="2023-02-07T16:26:44 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:26:44 EST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=qualificationsAddWorkExperience status=SUCCESS method=TestQualifications.qualificationsAddWorkExperience()[pri:0, instance:test.TestQualifications@49a71302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestQualifications -->
+      <class name="test.TestMostLikePost">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestMostLikePost@44de94c3]" started-at="2023-02-07T16:28:17 EST" name="setUp" finished-at="2023-02-07T16:28:20 EST" duration-ms="2691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestMostLikePost@44de94c3]" started-at="2023-02-07T16:28:20 EST" name="startExtent" finished-at="2023-02-07T16:28:20 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestMostLikePost.mostLikePostButtonClick() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="mostLikePostButtonClick()[pri:0, instance:test.TestMostLikePost@44de94c3]" started-at="2023-02-07T16:28:20 EST" name="mostLikePostButtonClick" finished-at="2023-02-07T16:28:27 EST" duration-ms="7810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mostLikePostButtonClick -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestMostLikePost@44de94c3]" started-at="2023-02-07T16:28:27 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:28:28 EST" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mostLikePostButtonClick status=SUCCESS method=TestMostLikePost.mostLikePostButtonClick()[pri:0, instance:test.TestMostLikePost@44de94c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestMostLikePost -->
+      <class name="test.TestLogIn">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.TestLogIn@677b8e13]" started-at="2023-02-07T16:24:49 EST" name="extentSetup" finished-at="2023-02-07T16:24:49 EST" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16c1d11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\munna\InteliiJ\web-automation-framework-final-Bootcamp\test-output\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestLogIn@677b8e13]" started-at="2023-02-07T16:24:49 EST" name="setUp" finished-at="2023-02-07T16:24:52 EST" duration-ms="3354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestLogIn@677b8e13]" started-at="2023-02-07T16:24:52 EST" name="startExtent" finished-at="2023-02-07T16:24:52 EST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestLogIn.logInOnHomePage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="logInOnHomePage()[pri:0, instance:test.TestLogIn@677b8e13]" started-at="2023-02-07T16:24:52 EST" name="logInOnHomePage" finished-at="2023-02-07T16:25:06 EST" duration-ms="13207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInOnHomePage -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestLogIn@677b8e13]" started-at="2023-02-07T16:25:06 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:25:06 EST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInOnHomePage status=SUCCESS method=TestLogIn.logInOnHomePage()[pri:0, instance:test.TestLogIn@677b8e13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:test.TestLogIn@677b8e13]" started-at="2023-02-07T16:29:55 EST" name="generateReport" finished-at="2023-02-07T16:29:55 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- test.TestLogIn -->
+      <class name="test.TestLogOut">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestLogOut@253b380a]" started-at="2023-02-07T16:27:46 EST" name="setUp" finished-at="2023-02-07T16:27:49 EST" duration-ms="2664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logOutFromOrangehrmPage()[pri:0, instance:test.TestLogOut@253b380a]" started-at="2023-02-07T16:27:49 EST" name="logOutFromOrangehrmPage" finished-at="2023-02-07T16:28:00 EST" duration-ms="11023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromOrangehrmPage -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestLogOut@253b380a]" started-at="2023-02-07T16:27:49 EST" name="startExtent" finished-at="2023-02-07T16:27:49 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestLogOut.logOutFromOrangehrmPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestLogOut@253b380a]" started-at="2023-02-07T16:28:00 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:28:00 EST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutFromOrangehrmPage status=SUCCESS method=TestLogOut.logOutFromOrangehrmPage()[pri:0, instance:test.TestLogOut@253b380a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestLogOut -->
+      <class name="test.TestTimeSheets">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeSheets@5fb7183b]" started-at="2023-02-07T16:27:29 EST" name="setUp" finished-at="2023-02-07T16:27:32 EST" duration-ms="2687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestTimeSheets@5fb7183b]" started-at="2023-02-07T16:27:32 EST" name="startExtent" finished-at="2023-02-07T16:27:32 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestTimeSheets.timeSheetsForEmployees() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="timeSheetsForEmployees()[pri:0, instance:test.TestTimeSheets@5fb7183b]" started-at="2023-02-07T16:27:32 EST" name="timeSheetsForEmployees" finished-at="2023-02-07T16:27:46 EST" duration-ms="14434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetsForEmployees -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestTimeSheets@5fb7183b]" started-at="2023-02-07T16:27:46 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:27:46 EST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=timeSheetsForEmployees status=SUCCESS method=TestTimeSheets.timeSheetsForEmployees()[pri:0, instance:test.TestTimeSheets@5fb7183b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestTimeSheets -->
+      <class name="test.TestPIM">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestPIM@4e25147a]" started-at="2023-02-07T16:25:49 EST" name="setUp" finished-at="2023-02-07T16:25:52 EST" duration-ms="3077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findOutEmployeeById()[pri:0, instance:test.TestPIM@4e25147a]" started-at="2023-02-07T16:25:52 EST" name="findOutEmployeeById" finished-at="2023-02-07T16:26:07 EST" duration-ms="14236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findOutEmployeeById -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestPIM@4e25147a]" started-at="2023-02-07T16:25:52 EST" name="startExtent" finished-at="2023-02-07T16:25:52 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestPIM.findOutEmployeeById() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestPIM@4e25147a]" started-at="2023-02-07T16:26:07 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:26:07 EST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findOutEmployeeById status=SUCCESS method=TestPIM.findOutEmployeeById()[pri:0, instance:test.TestPIM@4e25147a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestPIM -->
+      <class name="test.TestTimeFunctionAll">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:28 EST" name="setUp" finished-at="2023-02-07T16:28:30 EST" duration-ms="2611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="attendanceConfiguration()[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:30 EST" name="attendanceConfiguration" finished-at="2023-02-07T16:28:39 EST" duration-ms="9246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attendanceConfiguration -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:30 EST" name="startExtent" finished-at="2023-02-07T16:28:30 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestTimeFunctionAll.attendanceConfiguration() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:39 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:28:40 EST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=attendanceConfiguration status=SUCCESS method=TestTimeFunctionAll.attendanceConfiguration()[pri:0, instance:test.TestTimeFunctionAll@3f29e26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:40 EST" name="setUp" finished-at="2023-02-07T16:28:42 EST" duration-ms="2480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:42 EST" name="startExtent" finished-at="2023-02-07T16:28:42 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestTimeFunctionAll.projectInfoForCustomers() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="projectInfoForCustomers()[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:42 EST" name="projectInfoForCustomers" finished-at="2023-02-07T16:28:51 EST" duration-ms="9109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectInfoForCustomers -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:51 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:28:51 EST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=projectInfoForCustomers status=SUCCESS method=TestTimeFunctionAll.projectInfoForCustomers()[pri:0, instance:test.TestTimeFunctionAll@3f29e26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:51 EST" name="setUp" finished-at="2023-02-07T16:28:55 EST" duration-ms="3227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="summeryReportForEngineers()[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:55 EST" name="summeryReportForEngineers" finished-at="2023-02-07T16:29:09 EST" duration-ms="14525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summeryReportForEngineers -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:28:55 EST" name="startExtent" finished-at="2023-02-07T16:28:55 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestTimeFunctionAll.summeryReportForEngineers() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:09 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:29:09 EST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=summeryReportForEngineers status=SUCCESS method=TestTimeFunctionAll.summeryReportForEngineers()[pri:0, instance:test.TestTimeFunctionAll@3f29e26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:09 EST" name="setUp" finished-at="2023-02-07T16:29:13 EST" duration-ms="3309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:13 EST" name="startExtent" finished-at="2023-02-07T16:29:13 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestTimeFunctionAll.viewSelectedEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="viewSelectedEmployee()[pri:1, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:13 EST" name="viewSelectedEmployee" finished-at="2023-02-07T16:29:19 EST" duration-ms="6216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewSelectedEmployee -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:19 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:29:19 EST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewSelectedEmployee status=SUCCESS method=TestTimeFunctionAll.viewSelectedEmployee()[pri:1, instance:test.TestTimeFunctionAll@3f29e26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:19 EST" name="setUp" finished-at="2023-02-07T16:29:22 EST" duration-ms="2780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:22 EST" name="startExtent" finished-at="2023-02-07T16:29:22 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestTimeFunctionAll.addRowInEditTimeSheet() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="addRowInEditTimeSheet()[pri:2, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:22 EST" name="addRowInEditTimeSheet" finished-at="2023-02-07T16:29:33 EST" duration-ms="11104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRowInEditTimeSheet -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:33 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:29:33 EST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addRowInEditTimeSheet status=SUCCESS method=TestTimeFunctionAll.addRowInEditTimeSheet()[pri:2, instance:test.TestTimeFunctionAll@3f29e26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:33 EST" name="setUp" finished-at="2023-02-07T16:29:36 EST" duration-ms="2481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteRowFromEditTimeSheet()[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:36 EST" name="deleteRowFromEditTimeSheet" finished-at="2023-02-07T16:29:55 EST" depends-on-methods="test.TestTimeFunctionAll.addRowInEditTimeSheet" duration-ms="19738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRowFromEditTimeSheet -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:36 EST" name="startExtent" finished-at="2023-02-07T16:29:36 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestTimeFunctionAll.deleteRowFromEditTimeSheet() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestTimeFunctionAll@3f29e26]" started-at="2023-02-07T16:29:55 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:29:55 EST" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteRowFromEditTimeSheet status=SUCCESS method=TestTimeFunctionAll.deleteRowFromEditTimeSheet()[pri:0, instance:test.TestTimeFunctionAll@3f29e26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.TestTimeFunctionAll -->
+      <class name="test.TestAddInfoEverything">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:06 EST" name="setUp" finished-at="2023-02-07T16:25:08 EST" duration-ms="2482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:08 EST" name="startExtent" finished-at="2023-02-07T16:25:08 EST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,22 +1105,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="assignAndClickOnAddDependentsAndCancel()[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:17 EST" name="assignAndClickOnAddDependentsAndCancel" finished-at="2023-02-06T10:15:23 EST" duration-ms="5450" status="PASS">
+        <test-method signature="assignAndClickOnAddDependentsAndCancel()[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:08 EST" name="assignAndClickOnAddDependentsAndCancel" finished-at="2023-02-07T16:25:14 EST" duration-ms="5455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignAndClickOnAddDependentsAndCancel -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:23 EST" name="afterEachTestMethod" finished-at="2023-02-06T10:15:23 EST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:14 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:25:14 EST" duration-ms="180" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=assignAndClickOnAddDependentsAndCancel status=SUCCESS method=TestAddInfoEverything.assignAndClickOnAddDependentsAndCancel()[pri:0, instance:test.TestAddInfoEverything@659a2455] output={null}]]]>
+                <![CDATA[[TestResult name=assignAndClickOnAddDependentsAndCancel status=SUCCESS method=TestAddInfoEverything.assignAndClickOnAddDependentsAndCancel()[pri:0, instance:test.TestAddInfoEverything@37fdfb05] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:23 EST" name="setUp" finished-at="2023-02-06T10:15:29 EST" duration-ms="5252" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:14 EST" name="setUp" finished-at="2023-02-07T16:25:17 EST" duration-ms="2620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,11 +1161,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addressAndContactDetailsSubmit()[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:29 EST" name="addressAndContactDetailsSubmit" finished-at="2023-02-06T10:15:35 EST" depends-on-methods="test.TestAddInfoEverything.assignAndClickOnAddDependentsAndCancel" duration-ms="6077" status="PASS">
+        <test-method signature="addressAndContactDetailsSubmit()[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:17 EST" name="addressAndContactDetailsSubmit" finished-at="2023-02-07T16:25:22 EST" depends-on-methods="test.TestAddInfoEverything.assignAndClickOnAddDependentsAndCancel" duration-ms="5543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressAndContactDetailsSubmit -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:29 EST" name="startExtent" finished-at="2023-02-06T10:15:29 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:17 EST" name="startExtent" finished-at="2023-02-07T16:25:17 EST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,18 +1176,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:35 EST" name="afterEachTestMethod" finished-at="2023-02-06T10:15:35 EST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:22 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:25:22 EST" duration-ms="153" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addressAndContactDetailsSubmit status=SUCCESS method=TestAddInfoEverything.addressAndContactDetailsSubmit()[pri:0, instance:test.TestAddInfoEverything@659a2455] output={null}]]]>
+                <![CDATA[[TestResult name=addressAndContactDetailsSubmit status=SUCCESS method=TestAddInfoEverything.addressAndContactDetailsSubmit()[pri:0, instance:test.TestAddInfoEverything@37fdfb05] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:35 EST" name="setUp" finished-at="2023-02-06T10:15:42 EST" duration-ms="6997" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:22 EST" name="setUp" finished-at="2023-02-07T16:25:26 EST" duration-ms="3242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +1228,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:42 EST" name="startExtent" finished-at="2023-02-06T10:15:42 EST" duration-ms="1" status="PASS">
+        <test-method signature="addEmergencyContact()[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:26 EST" name="addEmergencyContact" finished-at="2023-02-07T16:25:33 EST" depends-on-methods="test.TestAddInfoEverything.addressAndContactDetailsSubmit" duration-ms="7772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmergencyContact -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:26 EST" name="startExtent" finished-at="2023-02-07T16:25:26 EST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,22 +1243,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="addEmergencyContact()[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:42 EST" name="addEmergencyContact" finished-at="2023-02-06T10:15:51 EST" depends-on-methods="test.TestAddInfoEverything.addressAndContactDetailsSubmit" duration-ms="8738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addEmergencyContact -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:51 EST" name="afterEachTestMethod" finished-at="2023-02-06T10:15:51 EST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:33 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:25:34 EST" duration-ms="123" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addEmergencyContact status=SUCCESS method=TestAddInfoEverything.addEmergencyContact()[pri:0, instance:test.TestAddInfoEverything@659a2455] output={null}]]]>
+                <![CDATA[[TestResult name=addEmergencyContact status=SUCCESS method=TestAddInfoEverything.addEmergencyContact()[pri:0, instance:test.TestAddInfoEverything@37fdfb05] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:15:51 EST" name="setUp" finished-at="2023-02-06T10:16:01 EST" duration-ms="10596" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:34 EST" name="setUp" finished-at="2023-02-07T16:25:36 EST" duration-ms="2437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -266,7 +1295,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:01 EST" name="startExtent" finished-at="2023-02-06T10:16:01 EST" duration-ms="3" status="PASS">
+        <test-method signature="immigrationRecordAddStatus()[pri:1, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:36 EST" name="immigrationRecordAddStatus" finished-at="2023-02-07T16:25:41 EST" duration-ms="4998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- immigrationRecordAddStatus -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:36 EST" name="startExtent" finished-at="2023-02-07T16:25:36 EST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,22 +1310,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="immigrationRecordAddStatus()[pri:1, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:01 EST" name="immigrationRecordAddStatus" finished-at="2023-02-06T10:16:08 EST" duration-ms="6926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- immigrationRecordAddStatus -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:08 EST" name="afterEachTestMethod" finished-at="2023-02-06T10:16:09 EST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:41 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:25:41 EST" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=immigrationRecordAddStatus status=SUCCESS method=TestAddInfoEverything.immigrationRecordAddStatus()[pri:1, instance:test.TestAddInfoEverything@659a2455] output={null}]]]>
+                <![CDATA[[TestResult name=immigrationRecordAddStatus status=SUCCESS method=TestAddInfoEverything.immigrationRecordAddStatus()[pri:1, instance:test.TestAddInfoEverything@37fdfb05] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:09 EST" name="setUp" finished-at="2023-02-06T10:16:18 EST" duration-ms="9408" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:41 EST" name="setUp" finished-at="2023-02-07T16:25:44 EST" duration-ms="2666" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -333,7 +1362,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:18 EST" name="startExtent" finished-at="2023-02-06T10:16:18 EST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:44 EST" name="startExtent" finished-at="2023-02-07T16:25:44 EST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -344,25 +1373,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="jobDetailsIncludingContactDetails()[pri:2, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:18 EST" name="jobDetailsIncludingContactDetails" finished-at="2023-02-06T10:16:24 EST" duration-ms="6312" status="PASS">
+        <test-method signature="jobDetailsIncludingContactDetails()[pri:2, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:44 EST" name="jobDetailsIncludingContactDetails" finished-at="2023-02-07T16:25:49 EST" duration-ms="5464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jobDetailsIncludingContactDetails -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:24 EST" name="afterEachTestMethod" finished-at="2023-02-06T10:16:25 EST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestAddInfoEverything@37fdfb05]" started-at="2023-02-07T16:25:49 EST" name="afterEachTestMethod" finished-at="2023-02-07T16:25:49 EST" duration-ms="133" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jobDetailsIncludingContactDetails status=SUCCESS method=TestAddInfoEverything.jobDetailsIncludingContactDetails()[pri:2, instance:test.TestAddInfoEverything@659a2455] output={null}]]]>
+                <![CDATA[[TestResult name=jobDetailsIncludingContactDetails status=SUCCESS method=TestAddInfoEverything.jobDetailsIncludingContactDetails()[pri:2, instance:test.TestAddInfoEverything@37fdfb05] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:test.TestAddInfoEverything@659a2455]" started-at="2023-02-06T10:16:25 EST" name="generateReport" finished-at="2023-02-06T10:16:25 EST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateReport -->
       </class> <!-- test.TestAddInfoEverything -->
     </test> <!-- orangehrm tests -->
   </suite> <!-- orangehrm test -->

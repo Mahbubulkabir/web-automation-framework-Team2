@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5ab9fd-0d4f-4b1d-9d81-d497735ba6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestAddInfoEverything.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestAddInfoEverything.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/orangehrm-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/orangehrm-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestAddInfoEverything.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestAddInfoEverything.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogIn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogIn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogOut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestLogOut.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestManagerReviews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestManagerReviews.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestMostLikePost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestMostLikePost.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPIM.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPIM.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPostComments.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestPostComments.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestQualifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestQualifications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestReportsOfQAEngineers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestReportsOfQAEngineers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestTimeFunctionAll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestTimeFunctionAll.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestTimeSheets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.TestTimeSheets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/orangehrm test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/orangehrm test/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/orangehrm test/orangehrm tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-automation-framework-Team2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +65,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Batch.run">
+}</component>
+  <component name="RunManager" selected="TestNG.C:/Users/munna/InteliiJ/web-automation-framework-final-Bootcamp/src/test/resources/orangehrm-runner.xml">
     <configuration name="Utility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utility.Utility" />
       <module name="web-automation-framework-final-Bootcamp" />
@@ -134,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Batch.run" />
         <item itemvalue="TestNG.C:/Users/munna/InteliiJ/web-automation-framework-final-Bootcamp/src/test/resources/orangehrm-runner.xml" />
+        <item itemvalue="Batch.run" />
         <item itemvalue="TestNG.TestAddInfoEverything.jobDetailsIncludingContactDetails" />
         <item itemvalue="Application.Utility" />
         <item itemvalue="TestNG.TestLogIn.logInOnHomePage" />
