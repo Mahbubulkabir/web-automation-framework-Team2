@@ -8,12 +8,14 @@ import org.testng.annotations.Test;
 import pages.LogInPage;
 import pages.PostComments;
 import utility.ReadFromExel;
+import utility.Utility;
 
 public class TestPostComments extends CommonAPI {
     Logger LOG = LogManager.getLogger(TestPostComments.class.getName());
     ReadFromExel read = new ReadFromExel("C:\\Users\\munna\\InteliiJ\\web-automation-framework-final-Bootcamp\\data\\titles.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");
     String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
+    String comments= Utility.getProperties().getProperty("comment.post");
 
     @Test
     public void postCommentsAndLikeIt() throws InterruptedException {
@@ -31,7 +33,7 @@ public class TestPostComments extends CommonAPI {
 
         postComments.setClickOnBuzzBtn();
         Thread.sleep(3000);
-        postComments.setTypeCommentsField("Hello Every body");
+        postComments.setTypeCommentsField(comments);
         Thread.sleep(3000);
         postComments.setClickOnPostBtn();
         Thread.sleep(3000);
@@ -39,5 +41,4 @@ public class TestPostComments extends CommonAPI {
         Assert.assertEquals(getURL(),expectedUrl);
         LOG.info("comments and like page validation success");
     }
-
 }

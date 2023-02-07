@@ -13,7 +13,8 @@ public class Utility {
     public static Properties getProperties(){
         Properties prop = new Properties();
         try {
-            InputStream inputStream = new FileInputStream(path + File.separator +"config.properties");
+           //InputStream inputStream = new FileInputStream(path + File.separator +"config.properties");
+          InputStream inputStream = new FileInputStream("C:\\Users\\munna\\InteliiJ\\web-automation-framework-final-Bootcamp\\src\\test\\config.properties");
             prop.load(inputStream);
             inputStream.close();
         } catch (IOException e) {
@@ -27,11 +28,11 @@ public class Utility {
     }
 
     public static void main(String[] args) {
-//        String toEncode = "";
+//        String toEncode = "vQcw3s4YAqJFezWyKDQg";
 //        String encoded = Base64.getEncoder().encodeToString(toEncode.getBytes());
 //        System.out.println(encoded);
-//
-//        System.out.println(decode("bmFjZXJoYWRqc2FpZDE="));
+
+//        System.out.println(decode("dlFjdzNzNFlBcUpGZXpXeUtEUWc="));
 
         String sep = File.separator;
         String path = System.getProperty("user.dir");

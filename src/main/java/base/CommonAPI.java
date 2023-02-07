@@ -8,6 +8,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -20,6 +22,8 @@ import java.lang.reflect.Method;
 import java.io.File;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -32,9 +36,11 @@ public class CommonAPI {
 
     Logger LOG = LogManager.getLogger(CommonAPI.class.getName());
 
-//    String takeScreenshot = Utility.getProperties().getProperty("take.screenshot", "false");
-//    String maximizeBrowser = Utility.getProperties().getProperty("browser.maximize", "true");
-//    String implicitWait = Utility.getProperties().getProperty("implicit.wait", "10");
+    String takeScreenshot = Utility.getProperties().getProperty("take.screenshot", "false");
+    String maximizeBrowser = Utility.getProperties().getProperty("browser.maximize", "true");
+    String implicitWait = Utility.getProperties().getProperty("implicit.wait", "10");
+    String username = Utility.decode(Utility.getProperties().getProperty("browserstack.username.md"));
+    String password = Utility.decode(Utility.getProperties().getProperty("browserstack.password.md"));
 
 
 
@@ -82,12 +88,12 @@ public class CommonAPI {
         }
         ExtentTestManager.endTest();
         extent.flush();
-//        if (takeScreenshot.equalsIgnoreCase("true")){
-//            if (result.getStatus() == ITestResult.FAILURE) {
-//                takeScreenshot(result.getName());
-//            }
-//        }
-//        driver.quit();
+        if (takeScreenshot.equalsIgnoreCase("true")){
+            if (result.getStatus() == ITestResult.FAILURE) {
+                takeScreenshot(result.getName());
+            }
+        }
+        driver.quit();
     }
     @AfterSuite
     public void generateReport() {
@@ -108,19 +114,43 @@ public class CommonAPI {
                 driver = new FirefoxDriver();
             }
         }
-        @Parameters({"url","browserName"})
-        @BeforeMethod
-        public void setUp(String url, String browserName) throws InterruptedException {
-            getLocalDriver(browserName);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            driver.manage().window().maximize();
-            driver.get(url);
+    public void getCloudDriver(String envName, String os, String osVersion, String browser, String browserVersion, String username, String password) throws MalformedURLException {
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability("os", os);
+        cap.setCapability("os_version", osVersion);
+        cap.setCapability("browser", browser);
+        cap.setCapability("browser_version", browserVersion);
+        if (envName.equalsIgnoreCase("browserstack")){
+            cap.setCapability("resolution", "1024x768");
+            driver = new RemoteWebDriver(new URL("http://"+username+":"+password+"@hub-cloud.browserstack.com:80/wd/hub"),cap);
+        } else if (envName.equalsIgnoreCase("saucelabs")) {
+            driver = new RemoteWebDriver(new URL("http://"+username+":"+password+"@ondemand.saucelabs.com:80/wd.hub"),cap);
         }
 
-        @AfterMethod
-        public void tearDown() {
-            driver.close();
+    }
+
+    @Parameters({"useCloudEnv","envName","os","osVersion","browserName","browserVersion","url"})
+    @BeforeMethod
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("browserstack") String envName,
+                      @Optional("windows") String os, @Optional("11") String osVersion,
+                      @Optional("chrome") String browserName, @Optional("108") String browserVersion,
+                      @Optional("https://www.google.com") String url) throws InterruptedException, MalformedURLException {
+        if (useCloudEnv){
+            getCloudDriver(envName, os,osVersion,browserName,browserVersion, username, password);
+        }else {
+            getLocalDriver(browserName);
         }
+        if (maximizeBrowser.equalsIgnoreCase("true")){
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(implicitWait)));
+        }
+        driver.manage().window().maximize();
+        driver.get(url);
+    }
+
+//        @AfterMethod
+//        public void tearDown() {
+//            driver.close();
+//        }
 
 
 
@@ -176,6 +206,11 @@ public class CommonAPI {
     public void clickWithJavascript(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("arguments[0].click();", element);
+    }
+    public void scrollDownWithJavascript(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].scrollIntoView();",element);
+
     }
 
         public void takeScreenshot(String screenshotName){

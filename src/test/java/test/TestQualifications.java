@@ -5,7 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HomePage;
+import pages.HomePageInfoEverything;
 import pages.LogInPage;
 import pages.Qualifications;
 import utility.ReadFromExel;
@@ -18,7 +18,7 @@ public class TestQualifications extends CommonAPI {
   @Test
     public void qualificationsAddWorkExperience() throws InterruptedException {
       Qualifications qualifications = new Qualifications(getDriver());
-      HomePage homePage = new HomePage(getDriver());
+      HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
       LogInPage logInPage = new LogInPage(getDriver());
       String expectedHomePageTitle = "OrangeHRM";
       String actualHomePageTitle = getCurrentTitle();
@@ -30,7 +30,7 @@ public class TestQualifications extends CommonAPI {
       logInPage.setClickOnLogInBtm();
       Thread.sleep(3000);
 
-      homePage.setClickOnMyInfoBtm();
+      homePageInfoEverything.setClickOnMyInfoBtm();
       Thread.sleep(3000);
       qualifications.setClickOnQualificationBtn();
       Thread.sleep(3000);
