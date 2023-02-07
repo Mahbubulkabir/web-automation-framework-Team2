@@ -1319,3 +1319,24 @@
 19:19:03.445 [main] INFO  pages.LogInPage - logIn page validation success
 19:19:06.027 [main] INFO  pages.HomePageInfoEverything - click on my info success
 19:19:08.777 [main] INFO  test.TestAddInfoEverything - job details page validation success
+03:04:03.688 [main] INFO  test.TestAddInfoEverything - land to orangehrm home page successfully
+03:04:07.470 [main] INFO  pages.LogInPage - logIn page validation success
+03:04:12.020 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:04:15.650 [main] INFO  test.TestAddInfoEverything - dependents add validation success
+03:04:29.431 [main] INFO  test.TestAddInfoEverything - land to orangehrm home page successfully
+03:04:33.413 [main] INFO  pages.LogInPage - logIn page validation success
+03:04:36.893 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:04:40.041 [main] INFO  test.TestAddInfoEverything - address add validation success
+03:04:53.405 [main] INFO  test.TestAddInfoEverything - land to orangehrm home page successfully
+03:04:56.486 [main] INFO  pages.LogInPage - logIn page validation success
+03:05:00.047 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:05:05.212 [main] INFO  pages.HomePageInfoEverything - contact info add validation success
+03:05:05.218 [main] INFO  test.TestAddInfoEverything - emergency contact add page validation success
+03:05:17.766 [main] INFO  test.TestAddInfoEverything - land to orangehrm home page successfully
+03:05:21.377 [main] INFO  pages.LogInPage - logIn page validation success
+03:05:25.436 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:05:27.798 [main] INFO  test.TestAddInfoEverything - immigration record added validation success
+03:05:43.600 [main] INFO  test.TestAddInfoEverything - land to orangehrm home page successfully
+03:05:48.004 [main] INFO  pages.LogInPage - logIn page validation success
+03:05:52.310 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:05:55.550 [main] INFO  test.TestAddInfoEverything - job details page validation success
