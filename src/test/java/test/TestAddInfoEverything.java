@@ -26,26 +26,17 @@ public class TestAddContact extends CommonAPI {
       logInPage.typeUserName(username);
       logInPage.typePassword(password);
       logInPage.setClickOnLogInBtm();
-      Thread.sleep(3000);
-
       homePage.setClickOnMyInfoBtm();
-      Thread.sleep(3000);
       homePage.setClickOnEmergencyConBtm();
-      Thread.sleep(3000);
       homePage.setClickOnAddBtn();
-      Thread.sleep(3000);
       homePage.typeName("robi");
-      Thread.sleep(3000);
       homePage.typeRelationship("brother");
       Thread.sleep(3000);
       homePage.typeHomePhone("364556746");
-      Thread.sleep(3000);
       homePage.typeMobile("212344556");
-      Thread.sleep(3000);
       homePage.typeWorkPhone("718777777");
       Thread.sleep(3000);
       homePage.setClickOnSaveBtn();
-      Thread.sleep(3000);
       String expectedUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7";
       Assert.assertEquals(getURL(), expectedUrl);
       LOG.info("emergency contact add page validation success");
