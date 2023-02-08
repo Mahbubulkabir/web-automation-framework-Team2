@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\hemal\IdeaProjects\group2-automation-final-bootcamp\test-output\html]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-01T17:19:40 GMT-12:00" name="ui.freecrm test" finished-at="2023-02-01T17:19:55 GMT-12:00" duration-ms="15010">
+  <suite started-at="2023-02-07T17:00:16 GMT-12:00" name="ui.freecrm test" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="21549">
     <groups>
     </groups>
-    <test started-at="2023-02-01T17:19:40 GMT-12:00" name="ui.freecrm tests" finished-at="2023-02-01T17:19:55 GMT-12:00" duration-ms="15010">
-      <class name="test.PopUpTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.PopUpTest@568ff82]" started-at="2023-02-01T17:19:40 GMT-12:00" name="setUp" finished-at="2023-02-01T17:19:45 GMT-12:00" duration-ms="4262" status="PASS">
+    <test started-at="2023-02-07T17:00:16 GMT-12:00" name="ui.freecrm tests" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="21549">
+      <class name="test.RadioTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:16 GMT-12:00" name="extentSetup" finished-at="2023-02-07T17:00:16 GMT-12:00" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a97b17c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\hemal\IdeaProjects\group2-automation-final-bootcamp\test-output\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:16 GMT-12:00" name="setUp" finished-at="2023-02-07T17:00:20 GMT-12:00" duration-ms="3754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,50 +40,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="popupMethod()[pri:0, instance:test.PopUpTest@568ff82]" started-at="2023-02-01T17:19:45 GMT-12:00" name="popupMethod" finished-at="2023-02-01T17:19:55 GMT-12:00" duration-ms="10423" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='unsubscribe-button']"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8fd3dbdbc8cfa9a6145a7ae42d8f114, findElement {using=xpath, value=//button[@id='unsubscribe-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62068/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8fd3dbdbc8cfa9a6145a7ae42d8f114]]>
-            </message>
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:20 GMT-12:00" name="startExtent" finished-at="2023-02-07T17:00:20 GMT-12:00" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.RadioTest.radioMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="radioMethod()[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:20 GMT-12:00" name="radioMethod" finished-at="2023-02-07T17:00:21 GMT-12:00" duration-ms="1148" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='unsubscribe-button']"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b8fd3dbdbc8cfa9a6145a7ae42d8f114, findElement {using=xpath, value=//button[@id='unsubscribe-button']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62068/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8fd3dbdbc8cfa9a6145a7ae42d8f114
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy31.click(Unknown Source)
-at base.CommonAPI.clickOn(CommonAPI.java:56)
-at page.PopUp.setUnsubBtn(PopUp.java:33)
-at test.PopUpTest.popupMethod(PopUpTest.java:18)
+              <![CDATA[java.lang.NullPointerException
+at base.CommonAPI.clickWithJavaScript(CommonAPI.java:132)
+at page.RadioBtn.setClickOnRadioBox(RadioBtn.java:27)
+at test.RadioTest.radioMethod(RadioTest.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -96,15 +87,30 @@ at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- popupMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.PopUpTest@568ff82]" started-at="2023-02-01T17:19:55 GMT-12:00" name="tearDown" finished-at="2023-02-01T17:19:55 GMT-12:00" duration-ms="248" status="PASS">
+        </test-method> <!-- radioMethod -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:21 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-07T17:00:21 GMT-12:00" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=radioMethod status=FAILURE method=RadioTest.radioMethod()[pri:0, instance:test.RadioTest@5b40ceb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:21 GMT-12:00" name="tearDown" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="16326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.PopUpTest -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:37 GMT-12:00" name="generateReport" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- test.RadioTest -->
     </test> <!-- ui.freecrm tests -->
   </suite> <!-- ui.freecrm test -->
 </testng-results>

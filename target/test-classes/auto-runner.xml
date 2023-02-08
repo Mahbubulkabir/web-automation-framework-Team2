@@ -10,7 +10,11 @@
 <!--            <class name="test.DropDownTest"></class>-->
 <!--            <class name="test.MouseHoverTest"></class>-->
 <!--            <class name="test.LogoTest"></class>-->
-            <class name="test.PopUpTest"></class>
+<!--            <class name="test.CreateTest"></class>-->
+<!--            <class name="test.LogOutTest"></class>-->
+<!--            <class name="test.PopUpTest"></class>-->
+            <class name="test.RadioTest"></class>
+
         </classes>
     </test>
 </suite>

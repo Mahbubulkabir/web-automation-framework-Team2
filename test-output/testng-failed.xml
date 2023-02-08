@@ -5,13 +5,17 @@
   <parameter name="url" value="https://ui.freecrm.com/"/>
   <test thread-count="5" name="ui.freecrm tests(failed)">
     <classes>
-      <class name="test.PopUpTest">
+      <class name="test.RadioTest">
         <methods>
           <include name="setUp"/>
-          <include name="popupMethod"/>
+          <include name="radioMethod"/>
+          <include name="afterEachTestMethod"/>
           <include name="tearDown"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
         </methods>
-      </class> <!-- test.PopUpTest -->
+      </class> <!-- test.RadioTest -->
     </classes>
   </test> <!-- ui.freecrm tests(failed) -->
 </suite> <!-- Failed suite [ui.freecrm test] -->

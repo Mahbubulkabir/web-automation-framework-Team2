@@ -29,6 +29,8 @@ public class PopUp extends CommonAPI {
         clickOn(subBtn);
     }
 
+	@FindBy(css="")
+	private WebElement webElement;
     public void setUnsubBtn(){
         clickOn(unsubBtn);
     }

@@ -15,8 +15,8 @@ public class PopUpTest extends CommonAPI {
 
         PopUp popUp = new PopUp(getDriver());
         popUp.setAlarmBtn();
-        popUp.setUnsubBtn();
-        //popUp.setSubBtn();
+     //   popUp.setUnsubBtn();
+        popUp.setSubBtn();
 
         Thread.sleep(4000);
     }
