@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ui.freecrm test]" guice-stage="DEVELOPMENT">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browserVersion" value="100"/>
   <parameter name="browserName" value="Chrome"/>
   <parameter name="url" value="https://ui.freecrm.com/"/>
   <test thread-count="5" name="ui.freecrm tests(failed)">
@@ -10,12 +15,31 @@
           <include name="setUp"/>
           <include name="radioMethod"/>
           <include name="afterEachTestMethod"/>
-          <include name="tearDown"/>
           <include name="extentSetup"/>
           <include name="generateReport"/>
           <include name="startExtent"/>
         </methods>
       </class> <!-- test.RadioTest -->
+      <class name="test.MouseHoverTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="popupMethod"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- test.MouseHoverTest -->
+      <class name="test.PopUpTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="popupMethod"/>
+          <include name="afterEachTestMethod"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- test.PopUpTest -->
     </classes>
   </test> <!-- ui.freecrm tests(failed) -->
 </suite> <!-- Failed suite [ui.freecrm test] -->

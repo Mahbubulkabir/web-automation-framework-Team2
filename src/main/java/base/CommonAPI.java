@@ -1,27 +1,51 @@
 package base;
 
 import com.relevantcodes.extentreports.LogStatus;
+import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
-
+import utility.Utility;
+import java.lang.reflect.Method;
+import java.io.File;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Calendar;
 import java.util.Date;
 
-public class CommonAPI{
+
+
+public class CommonAPI {
+
+    Logger LOG = LogManager.getLogger(CommonAPI.class.getName());
+
+    String takeScreenshot = Utility.getProperties().getProperty("take.screenshot", "false");
+    String maximizeBrowser = Utility.getProperties().getProperty("browser.maximize", "true");
+    String implicitWait = Utility.getProperties().getProperty("implicit.wait", "10");
+    String username = Utility.decode(Utility.getProperties().getProperty("browserstack.username.habibur"));
+    String password = Utility.decode(Utility.getProperties().getProperty("browserstack.password.habibur"));
+
+
 
     public WebDriver driver;
+
+    // report setup from line
 
     public static com.relevantcodes.extentreports.ExtentReports extent;
 
@@ -63,18 +87,19 @@ public class CommonAPI{
         }
         ExtentTestManager.endTest();
         extent.flush();
-//        if (takeScreenshot.equalsIgnoreCase("true")){
-//            if (result.getStatus() == ITestResult.FAILURE) {
-//                takeScreenshot(result.getName());
-//            }
-//        }
-//        driver.quit();
+        if (takeScreenshot.equalsIgnoreCase("true")){
+            if (result.getStatus() == ITestResult.FAILURE) {
+                takeScreenshot(result.getName());
+            }
+        }
+        driver.quit();
     }
     @AfterSuite
     public void generateReport() {
         extent.close();
     }
 
+    // project setup start
     private Date getTime(long millis) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
@@ -88,26 +113,54 @@ public class CommonAPI{
             driver = new FirefoxDriver();
         }
     }
+    public void getCloudDriver(String envName, String os, String osVersion, String browser, String browserVersion, String username, String password) throws MalformedURLException {
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability("os", os);
+        cap.setCapability("os_version", osVersion);
+        cap.setCapability("browser", browser);
+        cap.setCapability("browser_version", browserVersion);
+        if (envName.equalsIgnoreCase("browserstack")){
+            cap.setCapability("resolution", "1024x768");
+            driver = new RemoteWebDriver(new URL("http://"+username+":"+password+"@hub-cloud.browserstack.com:80/wd/hub"),cap);
+        } else if (envName.equalsIgnoreCase("ui.freecrm")) {
+            driver = new RemoteWebDriver(new URL("http://"+username+":"+password+"@ondemand.saucelabs.com:80/wd.hub"),cap);
+        }
 
-    @Parameters({"url","browserName"})
+    }
+
+    @Parameters({"useCloudEnv","envName","os","osVersion","browserName","browserVersion","url"})
     @BeforeMethod
-    public void setUp(String url, String browserName) throws InterruptedException {
-        getLocalDriver(browserName);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("browserstack") String envName,
+                      @Optional("windows") String os, @Optional("11") String osVersion,
+                      @Optional("chrome") String browserName, @Optional("108") String browserVersion,
+                      @Optional("https://www.google.com") String url) throws InterruptedException, MalformedURLException {
+        if (useCloudEnv){
+            getCloudDriver(envName, os,osVersion,browserName,browserVersion, username, password);
+        }else {
+            getLocalDriver(browserName);
+        }
+        if (maximizeBrowser.equalsIgnoreCase("true")){
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(implicitWait)));
+        }
         driver.manage().window().maximize();
         driver.get(url);
     }
 
-    @AfterMethod
-    public void tearDown() {
-        driver.close();
-    }
+//        @AfterMethod
+//        public void tearDown() {
+//            driver.close();
+//        }
+
+
 
     //generic methods
     public WebDriver getDriver() {
         return driver;
     }
 
+    public String getURL(){
+        return driver.getCurrentUrl();
+    }
     public String getCurrentTitle() {
         return driver.getTitle();
     }
@@ -127,12 +180,13 @@ public class CommonAPI{
     public void typeAndEnter(WebElement element, String text) {
         element.sendKeys(text, Keys.ENTER);
     }
-    public void clickWithJavaScript(WebElement element){
-        JavascriptExecutor js= (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click();", element);
-    }
-    public void selectOptionFromDropdown(WebElement dropdown, String option) {
-        Select select = new Select(dropdown);
+
+    public void typeAndArrowDownAndEnter(WebElement element, String text){ element.sendKeys(text, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER);}
+
+
+
+    public void selectOptionFromDropdown(WebElement element, String option) {
+        Select select = new Select(element);
         try {
             select.selectByVisibleText(option);
         } catch (Exception e) {
@@ -143,6 +197,32 @@ public class CommonAPI{
     public void hoverOver(WebDriver driver, WebElement element){
         Actions actions = new Actions(driver);
         actions.moveToElement(element).build().perform();
-        driver.quit();
+    }
+    public void clickWithActions(WebDriver driver, WebElement element){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().build().perform();
+    }
+    public void clickWithJavascript(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", element);
+    }
+    public void scrollDownWithJavascript(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].scrollIntoView();",element);
+
+    }
+
+    public void takeScreenshot(String screenshotName){
+        DateFormat df = new SimpleDateFormat("MMddyyyyHHmma");
+        Date date = new Date();
+        df.format(date);
+
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(file, new File(Utility.path + File.separator +"screenshots"+ File.separator + screenshotName+" "+df.format(date)+".jpeg"));
+            LOG.info("Screenshot captured");
+        } catch (Exception e) {
+            LOG.info("Exception while taking screenshot "+e.getMessage());
+        }
     }
 }

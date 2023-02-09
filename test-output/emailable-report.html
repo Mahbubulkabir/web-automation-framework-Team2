@@ -9,17 +9,84 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">ui.freecrm test</th></tr>
-<tr><td><a href="#t0">ui.freecrm tests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,549</td><td></td><td></td></tr>
+<tr><td><a href="#t0">ui.freecrm tests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">104,051</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ui.freecrm test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ui.freecrm tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.RadioTest</td><td><a href="#m0">radioMethod</a></td><td rowspan="1">1675832420088</td><td rowspan="1">1148</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ui.freecrm test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ui.freecrm tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.MouseHoverTest</td><td><a href="#m0">popupMethod</a></td><td rowspan="1">1675925036155</td><td rowspan="1">11241</td></tr><tr class="failedodd"><td rowspan="1">test.PopUpTest</td><td><a href="#m1">popupMethod</a></td><td rowspan="1">1675925080566</td><td rowspan="1">10361</td></tr><tr class="failedeven"><td rowspan="1">test.RadioTest</td><td><a href="#m2">radioMethod</a></td><td rowspan="1">1675925101114</td><td rowspan="1">1166</td></tr><tr><th colspan="4">ui.freecrm tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.CalendarTest</td><td><a href="#m3">testCalendar</a></td><td rowspan="1">1675925094084</td><td rowspan="1">4196</td></tr><tr class="passedodd"><td rowspan="1">test.CreateTest</td><td><a href="#m4">createNewEvent</a></td><td rowspan="1">1675925062708</td><td rowspan="1">6368</td></tr><tr class="passedeven"><td rowspan="1">test.DropDownTest</td><td><a href="#m5">testMethod</a></td><td rowspan="1">1675925022053</td><td rowspan="1">11417</td></tr><tr class="passedodd"><td rowspan="1">test.LogOutTest</td><td><a href="#m6">logoutMethod</a></td><td rowspan="1">1675925071820</td><td rowspan="1">6120</td></tr><tr class="passedeven"><td rowspan="1">test.LoginTest</td><td><a href="#m7">testLogin</a></td><td rowspan="1">1675925002189</td><td rowspan="1">9417</td></tr><tr class="passedodd"><td rowspan="1">test.LogoTest</td><td><a href="#m8">logoMethod</a></td><td rowspan="1">1675925050300</td><td rowspan="1">9459</td></tr><tr class="passedeven"><td rowspan="1">test.SearchTest</td><td><a href="#m9">testMethod</a></td><td rowspan="1">1675925015151</td><td rowspan="1">4108</td></tr></tbody>
 </table>
-<h2>ui.freecrm tests</h2><h3 id="m0">test.RadioTest#radioMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at base.CommonAPI.clickWithJavaScript(CommonAPI.java:132)
+<h2>ui.freecrm tests</h2><h3 id="m0">test.MouseHoverTest#popupMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body[1]/div[2]/div[1]/div[1]/svg[1]/path[1]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4cd43585c809fbf237db5840757f28c, findElement {using=xpath, value=//body[1]/div[2]/div[1]/div[1]/svg[1]/path[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53810/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4cd43585c809fbf237db5840757f28c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy34.click(Unknown Source)
+	at base.CommonAPI.clickOn(CommonAPI.java:173)
+	at page.MouseHover.setClickBtn(MouseHover.java:28)
+	at test.MouseHoverTest.popupMethod(MouseHoverTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.PopUpTest#popupMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;subscribe-button&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ab7f2a7a6e920cee70dfb013b81497a, findElement {using=xpath, value=//button[@id=&apos;subscribe-button&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53966/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab7f2a7a6e920cee70dfb013b81497a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy34.click(Unknown Source)
+	at base.CommonAPI.clickOn(CommonAPI.java:173)
+	at page.PopUp.setSubBtn(PopUp.java:29)
+	at test.PopUpTest.popupMethod(PopUpTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.RadioTest#radioMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at base.CommonAPI.clickWithJavascript(CommonAPI.java:207)
 	at page.RadioBtn.setClickOnRadioBox(RadioBtn.java:27)
 	at test.RadioTest.radioMethod(RadioTest.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 ... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.CalendarTest#testCalendar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.CreateTest#createNewEvent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.DropDownTest#testMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.LogOutTest#logoutMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.LoginTest#testLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.LogoTest#logoMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.SearchTest#testMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

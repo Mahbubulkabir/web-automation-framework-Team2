@@ -1,20 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="18" total="28" passed="7" failed="3" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\hemal\IdeaProjects\group2-automation-final-bootcamp\test-output\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-07T17:00:16 GMT-12:00" name="ui.freecrm test" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="21549">
+  <suite started-at="2023-02-08T18:43:18 GMT-12:00" name="ui.freecrm test" finished-at="2023-02-08T18:45:02 GMT-12:00" duration-ms="104051">
     <groups>
     </groups>
-    <test started-at="2023-02-07T17:00:16 GMT-12:00" name="ui.freecrm tests" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="21549">
-      <class name="test.RadioTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:16 GMT-12:00" name="extentSetup" finished-at="2023-02-07T17:00:16 GMT-12:00" duration-ms="131" status="PASS">
+    <test started-at="2023-02-08T18:43:18 GMT-12:00" name="ui.freecrm tests" finished-at="2023-02-08T18:45:02 GMT-12:00" duration-ms="104051">
+      <class name="test.LogoTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LogoTest@2bef51f2]" started-at="2023-02-08T18:44:07 GMT-12:00" name="setUp" finished-at="2023-02-08T18:44:10 GMT-12:00" duration-ms="2507" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a97b17c]]>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoMethod()[pri:0, instance:test.LogoTest@2bef51f2]" started-at="2023-02-08T18:44:10 GMT-12:00" name="logoMethod" finished-at="2023-02-08T18:44:19 GMT-12:00" duration-ms="9459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoMethod -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.LogoTest@2bef51f2]" started-at="2023-02-08T18:44:10 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:44:10 GMT-12:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LogoTest.logoMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.LogoTest@2bef51f2]" started-at="2023-02-08T18:44:19 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:44:20 GMT-12:00" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoMethod status=SUCCESS method=LogoTest.logoMethod()[pri:0, instance:test.LogoTest@2bef51f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.LogoTest -->
+      <class name="test.CreateTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.CreateTest@650eab8]" started-at="2023-02-08T18:44:20 GMT-12:00" name="setUp" finished-at="2023-02-08T18:44:22 GMT-12:00" duration-ms="2583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewEvent()[pri:0, instance:test.CreateTest@650eab8]" started-at="2023-02-08T18:44:22 GMT-12:00" name="createNewEvent" finished-at="2023-02-08T18:44:29 GMT-12:00" duration-ms="6368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEvent -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.CreateTest@650eab8]" started-at="2023-02-08T18:44:22 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:44:22 GMT-12:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.CreateTest.createNewEvent() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.CreateTest@650eab8]" started-at="2023-02-08T18:44:29 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:44:29 GMT-12:00" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewEvent status=SUCCESS method=CreateTest.createNewEvent()[pri:0, instance:test.CreateTest@650eab8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.CreateTest -->
+      <class name="test.DropDownTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.DropDownTest@652a7737]" started-at="2023-02-08T18:43:39 GMT-12:00" name="setUp" finished-at="2023-02-08T18:43:42 GMT-12:00" duration-ms="2570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMethod()[pri:0, instance:test.DropDownTest@652a7737]" started-at="2023-02-08T18:43:42 GMT-12:00" name="testMethod" finished-at="2023-02-08T18:43:53 GMT-12:00" duration-ms="11417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.DropDownTest@652a7737]" started-at="2023-02-08T18:43:42 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:43:42 GMT-12:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.DropDownTest.testMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.DropDownTest@652a7737]" started-at="2023-02-08T18:43:53 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:43:53 GMT-12:00" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=DropDownTest.testMethod()[pri:0, instance:test.DropDownTest@652a7737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.DropDownTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.LoginTest@62dae540]" started-at="2023-02-08T18:43:18 GMT-12:00" name="extentSetup" finished-at="2023-02-08T18:43:18 GMT-12:00" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c5406b]]>
               </value>
             </param>
           </params>
@@ -24,38 +231,405 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:16 GMT-12:00" name="setUp" finished-at="2023-02-07T17:00:20 GMT-12:00" duration-ms="3754" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@62dae540]" started-at="2023-02-08T18:43:18 GMT-12:00" name="setUp" finished-at="2023-02-08T18:43:22 GMT-12:00" duration-ms="3674" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ui.freecrm.com/]]>
+                <![CDATA[false]]>
               </value>
             </param>
             <param index="1">
               <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
                 <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:20 GMT-12:00" name="startExtent" finished-at="2023-02-07T17:00:20 GMT-12:00" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.LoginTest@62dae540]" started-at="2023-02-08T18:43:22 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:43:22 GMT-12:00" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void test.RadioTest.radioMethod() throws java.lang.InterruptedException]]>
+                <![CDATA[public void test.LoginTest.testLogin() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="radioMethod()[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:20 GMT-12:00" name="radioMethod" finished-at="2023-02-07T17:00:21 GMT-12:00" duration-ms="1148" status="FAIL">
+        <test-method signature="testLogin()[pri:0, instance:test.LoginTest@62dae540]" started-at="2023-02-08T18:43:22 GMT-12:00" name="testLogin" finished-at="2023-02-08T18:43:31 GMT-12:00" duration-ms="9417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.LoginTest@62dae540]" started-at="2023-02-08T18:43:31 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:43:32 GMT-12:00" duration-ms="870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin()[pri:0, instance:test.LoginTest@62dae540] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:test.LoginTest@62dae540]" started-at="2023-02-08T18:45:02 GMT-12:00" name="generateReport" finished-at="2023-02-08T18:45:02 GMT-12:00" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.LogOutTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LogOutTest@1e1d3956]" started-at="2023-02-08T18:44:29 GMT-12:00" name="setUp" finished-at="2023-02-08T18:44:31 GMT-12:00" duration-ms="2536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutMethod()[pri:0, instance:test.LogOutTest@1e1d3956]" started-at="2023-02-08T18:44:31 GMT-12:00" name="logoutMethod" finished-at="2023-02-08T18:44:37 GMT-12:00" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.LogOutTest@1e1d3956]" started-at="2023-02-08T18:44:31 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:44:31 GMT-12:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LogOutTest.logoutMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.LogOutTest@1e1d3956]" started-at="2023-02-08T18:44:37 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:44:38 GMT-12:00" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutMethod status=SUCCESS method=LogOutTest.logoutMethod()[pri:0, instance:test.LogOutTest@1e1d3956] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.LogOutTest -->
+      <class name="test.CalendarTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.CalendarTest@4e28bdd1]" started-at="2023-02-08T18:44:51 GMT-12:00" name="setUp" finished-at="2023-02-08T18:44:54 GMT-12:00" duration-ms="2753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCalendar()[pri:0, instance:test.CalendarTest@4e28bdd1]" started-at="2023-02-08T18:44:54 GMT-12:00" name="testCalendar" finished-at="2023-02-08T18:44:58 GMT-12:00" duration-ms="4196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalendar -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.CalendarTest@4e28bdd1]" started-at="2023-02-08T18:44:54 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:44:54 GMT-12:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.CalendarTest.testCalendar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.CalendarTest@4e28bdd1]" started-at="2023-02-08T18:44:58 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:44:58 GMT-12:00" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCalendar status=SUCCESS method=CalendarTest.testCalendar()[pri:0, instance:test.CalendarTest@4e28bdd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.CalendarTest -->
+      <class name="test.PopUpTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.PopUpTest@4f2c9ba6]" started-at="2023-02-08T18:44:38 GMT-12:00" name="setUp" finished-at="2023-02-08T18:44:40 GMT-12:00" duration-ms="2399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.PopUpTest@4f2c9ba6]" started-at="2023-02-08T18:44:40 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:44:40 GMT-12:00" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.PopUpTest.popupMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="popupMethod()[pri:0, instance:test.PopUpTest@4f2c9ba6]" started-at="2023-02-08T18:44:40 GMT-12:00" name="popupMethod" finished-at="2023-02-08T18:44:50 GMT-12:00" duration-ms="10361" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='subscribe-button']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ab7f2a7a6e920cee70dfb013b81497a, findElement {using=xpath, value=//button[@id='subscribe-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53966/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab7f2a7a6e920cee70dfb013b81497a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='subscribe-button']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ab7f2a7a6e920cee70dfb013b81497a, findElement {using=xpath, value=//button[@id='subscribe-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53966/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ab7f2a7a6e920cee70dfb013b81497a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy34.click(Unknown Source)
+at base.CommonAPI.clickOn(CommonAPI.java:173)
+at page.PopUp.setSubBtn(PopUp.java:29)
+at test.PopUpTest.popupMethod(PopUpTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupMethod -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.PopUpTest@4f2c9ba6]" started-at="2023-02-08T18:44:50 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:44:51 GMT-12:00" duration-ms="388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=popupMethod status=FAILURE method=PopUpTest.popupMethod()[pri:0, instance:test.PopUpTest@4f2c9ba6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.PopUpTest -->
+      <class name="test.RadioTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.RadioTest@53f48368]" started-at="2023-02-08T18:44:58 GMT-12:00" name="setUp" finished-at="2023-02-08T18:45:01 GMT-12:00" duration-ms="2546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="radioMethod()[pri:0, instance:test.RadioTest@53f48368]" started-at="2023-02-08T18:45:01 GMT-12:00" name="radioMethod" finished-at="2023-02-08T18:45:02 GMT-12:00" duration-ms="1166" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at base.CommonAPI.clickWithJavaScript(CommonAPI.java:132)
+at base.CommonAPI.clickWithJavascript(CommonAPI.java:207)
 at page.RadioBtn.setClickOnRadioBox(RadioBtn.java:27)
 at test.RadioTest.radioMethod(RadioTest.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -91,26 +665,240 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioMethod -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:21 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-07T17:00:21 GMT-12:00" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.RadioTest@53f48368]" started-at="2023-02-08T18:45:01 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:45:01 GMT-12:00" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=radioMethod status=FAILURE method=RadioTest.radioMethod()[pri:0, instance:test.RadioTest@5b40ceb] output={null}]]]>
+                <![CDATA[public void test.RadioTest.radioMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.RadioTest@53f48368]" started-at="2023-02-08T18:45:02 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:45:02 GMT-12:00" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=radioMethod status=FAILURE method=RadioTest.radioMethod()[pri:0, instance:test.RadioTest@53f48368] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:21 GMT-12:00" name="tearDown" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="16326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:test.RadioTest@5b40ceb]" started-at="2023-02-07T17:00:37 GMT-12:00" name="generateReport" finished-at="2023-02-07T17:00:37 GMT-12:00" duration-ms="68" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateReport -->
       </class> <!-- test.RadioTest -->
+      <class name="test.MouseHoverTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.MouseHoverTest@5b7ea70d]" started-at="2023-02-08T18:43:53 GMT-12:00" name="setUp" finished-at="2023-02-08T18:43:56 GMT-12:00" duration-ms="2421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="popupMethod()[pri:0, instance:test.MouseHoverTest@5b7ea70d]" started-at="2023-02-08T18:43:56 GMT-12:00" name="popupMethod" finished-at="2023-02-08T18:44:07 GMT-12:00" duration-ms="11241" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[2]/div[1]/div[1]/svg[1]/path[1]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4cd43585c809fbf237db5840757f28c, findElement {using=xpath, value=//body[1]/div[2]/div[1]/div[1]/svg[1]/path[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53810/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4cd43585c809fbf237db5840757f28c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[2]/div[1]/div[1]/svg[1]/path[1]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4cd43585c809fbf237db5840757f28c, findElement {using=xpath, value=//body[1]/div[2]/div[1]/div[1]/svg[1]/path[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\hemal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53810/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4cd43585c809fbf237db5840757f28c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy34.click(Unknown Source)
+at base.CommonAPI.clickOn(CommonAPI.java:173)
+at page.MouseHover.setClickBtn(MouseHover.java:28)
+at test.MouseHoverTest.popupMethod(MouseHoverTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupMethod -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.MouseHoverTest@5b7ea70d]" started-at="2023-02-08T18:43:56 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:43:56 GMT-12:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.MouseHoverTest.popupMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.MouseHoverTest@5b7ea70d]" started-at="2023-02-08T18:44:07 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:44:07 GMT-12:00" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=popupMethod status=FAILURE method=MouseHoverTest.popupMethod()[pri:0, instance:test.MouseHoverTest@5b7ea70d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.MouseHoverTest -->
+      <class name="test.SearchTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SearchTest@1eb6749b]" started-at="2023-02-08T18:43:32 GMT-12:00" name="setUp" finished-at="2023-02-08T18:43:35 GMT-12:00" duration-ms="2665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://ui.freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.SearchTest@1eb6749b]" started-at="2023-02-08T18:43:35 GMT-12:00" name="startExtent" finished-at="2023-02-08T18:43:35 GMT-12:00" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SearchTest.testMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="testMethod()[pri:0, instance:test.SearchTest@1eb6749b]" started-at="2023-02-08T18:43:35 GMT-12:00" name="testMethod" finished-at="2023-02-08T18:43:39 GMT-12:00" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.SearchTest@1eb6749b]" started-at="2023-02-08T18:43:39 GMT-12:00" name="afterEachTestMethod" finished-at="2023-02-08T18:43:39 GMT-12:00" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=SearchTest.testMethod()[pri:0, instance:test.SearchTest@1eb6749b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.SearchTest -->
     </test> <!-- ui.freecrm tests -->
   </suite> <!-- ui.freecrm test -->
 </testng-results>

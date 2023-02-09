@@ -76,3 +76,12 @@
 18:38:46.670 [main] INFO  test.LoginTest - login page validation successful
 22:55:45.044 [main] INFO  test.LoginTest - login page validation successful
 22:56:08.592 [main] INFO  test.DropDownTest - DropDown validation successful
+18:28:33.300 [main] INFO  test.LoginTest - login page validation successful
+18:28:54.845 [main] INFO  test.DropDownTest - DropDown validation successful
+22:50:33.407 [main] INFO  test.LoginTest - login page validation successful
+22:50:53.391 [main] INFO  test.DropDownTest - DropDown validation successful
+18:35:23.940 [main] INFO  test.LoginTest - login page validation successful
+18:35:48.397 [main] INFO  test.LoginTest - login page validation successful
+18:39:33.145 [main] INFO  test.LoginTest - login page validation successful
+18:43:31.595 [main] INFO  test.LoginTest - login page validation successful
+18:43:53.470 [main] INFO  test.DropDownTest - DropDown validation successful

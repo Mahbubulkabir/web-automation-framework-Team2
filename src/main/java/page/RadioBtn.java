@@ -24,7 +24,7 @@ public class RadioBtn extends CommonAPI {
     WebElement clickOnRadioBox;
 
     public void setClickOnRadioBox (){
-     clickWithJavaScript(clickOnRadioBox);
+     clickWithJavascript(clickOnRadioBox);
 
     }
 

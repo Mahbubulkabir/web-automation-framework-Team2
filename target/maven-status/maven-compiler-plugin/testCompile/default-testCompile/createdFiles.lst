@@ -1,0 +1,10 @@
+test\CreateTest.class
+test\LoginTest.class
+test\MouseHoverTest.class
+test\PopUpTest.class
+test\SearchTest.class
+test\RadioTest.class
+test\CalendarTest.class
+test\LogoTest.class
+test\DropDownTest.class
+test\LogOutTest.class
