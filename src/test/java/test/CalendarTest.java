@@ -11,6 +11,7 @@ import page.LoginPage;
 import static org.openqa.selenium.remote.http.DumpHttpExchangeFilter.LOG;
 
 public class CalendarTest extends CommonAPI {
+
     Logger LOG= LogManager.getLogger(LoginTest.class.getName());
 @Test
     public void testCalendar() throws InterruptedException {

@@ -9,6 +9,7 @@ import page.LoginPage;
 public class CreateTest extends CommonAPI {
     Logger LOG = LogManager.getLogger(CreateTest.class.getName());
 
+
     @Test
     public void createNewEvent() throws InterruptedException {
         LoginPage loginPage = new LoginPage(getDriver());
