@@ -22,11 +22,8 @@ public class TestLogIn extends CommonAPI {
     String actualHomePageTitle = getCurrentTitle();
     Assert.assertEquals(actualHomePageTitle,expectedHomePageTitle);
     LOG.info("land to orangehrm home page successfully");
-    Thread.sleep(3000);
     logInPage.typeUserName(username);
-    Thread.sleep(3000);
     logInPage.typePassword(password);
-    Thread.sleep(3000);
     logInPage.setClickOnLogInBtm();
     Thread.sleep(3000);
     String expectedUrl ="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";

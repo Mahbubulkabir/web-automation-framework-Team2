@@ -123,7 +123,7 @@ public class CommonAPI {
         if (envName.equalsIgnoreCase("browserstack")){
             cap.setCapability("resolution", "1024x768");
             driver = new RemoteWebDriver(new URL("http://"+username+":"+password+"@hub-cloud.browserstack.com:80/wd/hub"),cap);
-        } else if (envName.equalsIgnoreCase("saucelabs")) {
+        } else if (envName.equalsIgnoreCase("orangehrm")) {
             driver = new RemoteWebDriver(new URL("http://"+username+":"+password+"@ondemand.saucelabs.com:80/wd.hub"),cap);
         }
 

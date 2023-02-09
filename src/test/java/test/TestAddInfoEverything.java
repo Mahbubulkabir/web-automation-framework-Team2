@@ -17,7 +17,7 @@ public class TestAddInfoEverything extends CommonAPI {
    String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
 
    @Test(dependsOnMethods = {"addressAndContactDetailsSubmit"}, alwaysRun = false)
-   public void addEmergencyContact() throws InterruptedException {
+   public void addEmergencyContact() {
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
       LogInPage logInPage = new LogInPage(getDriver());
       String expectedHomePageTitle = "OrangeHRM";
@@ -36,7 +36,6 @@ public class TestAddInfoEverything extends CommonAPI {
       homePageInfoEverything.typeHomePhone("364556746");
       homePageInfoEverything.typeMobile("212344556");
       homePageInfoEverything.typeWorkPhone("718777777");
-      Thread.sleep(3000);
       homePageInfoEverything.setClickOnSaveBtn();
       String expectedUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7";
       Assert.assertEquals(getURL(), expectedUrl);
@@ -88,7 +87,7 @@ public class TestAddInfoEverything extends CommonAPI {
       LOG.info("dependents add validation success");
    }
 
-   @Test(priority = 1,enabled = true)
+   @Test(groups = "sanity")
    public void immigrationRecordAddStatus(){
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
       LogInPage logInPage = new LogInPage(getDriver());
@@ -114,7 +113,7 @@ public class TestAddInfoEverything extends CommonAPI {
       LOG.info("immigration record added validation success");
    }
 
-   @Test(priority = 2)
+   @Test(groups = "regression")
    public void jobDetailsIncludingContactDetails(){
       HomePageInfoEverything homePageInfoEverything = new HomePageInfoEverything(getDriver());
       LogInPage logInPage = new LogInPage(getDriver());

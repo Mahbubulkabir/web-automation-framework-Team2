@@ -1479,3 +1479,22 @@
 16:29:36.052 [main] INFO  test.TestTimeFunctionAll - land to orangehrm home page successfully
 16:29:37.424 [main] INFO  pages.LogInPage - logIn page validation success
 16:29:55.780 [main] INFO  test.TestTimeFunctionAll - row delete validation success
+02:37:12.570 [main] INFO  test.TestLogIn - land to orangehrm home page successfully
+02:37:14.003 [main] INFO  pages.LogInPage - logIn page validation success
+02:37:17.224 [main] INFO  test.TestLogIn - login page validation success
+02:39:21.133 [main] INFO  test.TestQualifications - land to orangehrm home page successfully
+02:39:22.590 [main] INFO  pages.LogInPage - logIn page validation success
+02:39:27.324 [main] INFO  pages.HomePageInfoEverything - click on my info success
+02:39:58.256 [main] INFO  test.TestQualifications - add work experience success
+03:12:30.734 [main] INFO  test.TestQualifications - land to orangehrm home page successfully
+03:12:32.236 [main] INFO  pages.LogInPage - logIn page validation success
+03:12:36.079 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:13:04.272 [main] INFO  test.TestQualifications - add work experience success
+03:16:24.688 [main] INFO  test.TestQualifications - land to orangehrm home page successfully
+03:16:25.460 [main] INFO  pages.LogInPage - logIn page validation success
+03:16:29.284 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:16:57.434 [main] INFO  test.TestQualifications - add work experience success
+03:21:43.685 [main] INFO  test.TestQualifications - land to orangehrm home page successfully
+03:21:44.245 [main] INFO  pages.LogInPage - logIn page validation success
+03:21:48.127 [main] INFO  pages.HomePageInfoEverything - click on my info success
+03:22:16.285 [main] INFO  test.TestQualifications - add work experience success

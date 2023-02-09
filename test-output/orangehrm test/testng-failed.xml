@@ -10,16 +10,16 @@
   <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
   <test thread-count="5" name="orangehrm tests(failed)">
     <classes>
-      <class name="test.TestAddInfoEverything">
+      <class name="test.TestLogIn">
         <methods>
-          <include name="jobDetailsIncludingContactDetails"/>
           <include name="setUp"/>
           <include name="afterEachTestMethod"/>
           <include name="extentSetup"/>
           <include name="generateReport"/>
+          <include name="logInOnHomePage"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- test.TestAddInfoEverything -->
+      </class> <!-- test.TestLogIn -->
     </classes>
   </test> <!-- orangehrm tests(failed) -->
 </suite> <!-- Failed suite [orangehrm test] -->

@@ -17,7 +17,7 @@ public class TestTimeFunctionAll extends CommonAPI {
     String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
 
     @Test(priority = 0, enabled = true)
-    public void summeryReportForEngineers() throws InterruptedException {
+    public void summeryReportForEngineers() {
         TimeFunctionAll timeFunctionAll = new TimeFunctionAll(getDriver());
         TimeSheets timeSheets = new TimeSheets(getDriver());
         LogInPage logInPage = new LogInPage(getDriver());
@@ -26,14 +26,9 @@ public class TestTimeFunctionAll extends CommonAPI {
         logInPage.typeUserName(username);
         logInPage.typePassword(password);
         logInPage.setClickOnLogInBtm();
-        Thread.sleep(3000);
         timeSheets.setClickOnTimeBtn();
-        Thread.sleep(3000);
-       // timeFunction.setReportDropDown("Attendance Summary");
         timeFunctionAll.setReportBtn();
-        Thread.sleep(3000);
         timeFunctionAll.setClickOnSummery();
-        Thread.sleep(3000);
         String expectedUrl="https://opensource-demo.orangehrmlive.com/web/index.php/time/displayAttendanceSummaryReportCriteria";
         Assert.assertEquals(getURL(),expectedUrl);
         LOG.info("summery report page validation success");
@@ -51,7 +46,6 @@ public class TestTimeFunctionAll extends CommonAPI {
        timeSheets.setClickOnTimeBtn();
        timeFunctionAll.setClickOnViewBtn();
        timeFunctionAll.setClickOnEditBtn();
-       Thread.sleep(3000);
        timeFunctionAll.setClickOnAddRowBtn();
        Thread.sleep(3000);
        String expectedUrl2= "https://opensource-demo.orangehrmlive.com/web/index.php/time/editTimesheet/260";
@@ -70,14 +64,10 @@ public class TestTimeFunctionAll extends CommonAPI {
        logInPage.typePassword(password);
        logInPage.setClickOnLogInBtm();
        timeSheets.setClickOnTimeBtn();
-       Thread.sleep(3000);
        timeFunctionAll.setClickOnViewBtn();
        timeFunctionAll.setClickOnEditBtn();
-       Thread.sleep(3000);
        timeFunctionAll.setClickOnAddRowBtn();
-       Thread.sleep(3000);
        timeFunctionAll.setClickOnDeleteRowBtn();
-       Thread.sleep(3000);
        timeFunctionAll.setClickOnSaveBtn();
        Thread.sleep(3000);
        String expectedUrl3 = "https://opensource-demo.orangehrmlive.com/web/index.php/time/editTimesheet/260";
@@ -114,8 +104,7 @@ public class TestTimeFunctionAll extends CommonAPI {
        logInPage.typePassword(password);
        logInPage.setClickOnLogInBtm();
        timeSheets.setClickOnTimeBtn();
-       Thread.sleep(3000);
-       //timeFunctionAll.setProjectInfoDropDownToCustomers("Customers");
+
        timeFunctionAll.setProjectInfoDropDownClick();
        timeFunctionAll.setClickOnCustomers();
        Thread.sleep(3000);
@@ -135,7 +124,7 @@ public class TestTimeFunctionAll extends CommonAPI {
        logInPage.typePassword(password);
        logInPage.setClickOnLogInBtm();
        timeSheets.setClickOnTimeBtn();
-       Thread.sleep(3000);
+
        timeFunctionAll.setClickOnAttendance();
        timeFunctionAll.setClickOnConfiguration();
        Thread.sleep(3000);
