@@ -11,7 +11,7 @@ import utility.ReadFromExcel;
 
 public class TestReportsOfQAEngineers extends CommonAPI {
     Logger LOG = LogManager.getLogger(TestManagerReviews.class.getName());
-    ReadFromExcel read = new ReadFromExcel("C:\\Users\\munna\\InteliiJ\\web-automation-framework-final-Bootcamp\\data\\titles.xlsx", "test data");
+    ReadFromExcel read = new ReadFromExcel("C:\\Users\\munna\\InteliiJ\\webAutomationFinalExamMMK\\data\\data.xlsx", "test data");
     String username= read.getCellValueForGivenHeaderAndKey("key","userName");
     String password= read.getCellValueForGivenHeaderAndKey("key","passWord");
     @Test
